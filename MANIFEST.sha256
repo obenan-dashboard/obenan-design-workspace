@@ -6,12 +6,13 @@
 1b9b81f67f38a8f35875cb10fd19b28c6a80ee0ca8be6bf5e031a931ec33b6f4  ./AGENTS.md
 1ec915f8589161e990038bb7aa4bccb39c448061c093dd96949f9dfc346c9027  ./reference/brand-assets/quick-start/logos/legacy-logo-dark.svg
 273305498c091cd201ccaa5522ef67493ba9be2c1c2f5c7970fa7100e7612d30  ./templates/AGENT_ROTATION_PROMPT.md
+30bf2e9a821f1b344f8f0402b4459cd03ef48b51dcd849c89c64eef249ed29af  ./DISTRIBUTION.md
 370818430222a37dd1c9636fac6194891f6f056b81c767ead33d7bf49ac7d551  ./reference/brand-assets/README.md
 446ceb6a4ef9fef211b97994cd0636918de52609fbcd6b8ab6549cbc1e0e6bb1  ./reference/design-principles/BRAND_SYSTEM.md
 4a42d50df9d4c51e899473ceed54ce7b2fda49d866717ca6f736facd71f6b0dd  ./CLAUDE.md
 4b27f3b082fa8dea30b50cf5ae88acf0d658a8608cc304ff31ae78f22958ffd2  ./README.md
+51b3fa3fd7a6c6cd22591a1f4880964860e3578eb9c819c8232ecbf17d03687a  ./FILE_INDEX.tsv
 6083d1c5f0b1aef5fc9d78ca14b19fa7f8e1e290400c8be2627f5adcc08536f7  ./reference/brand-assets/quick-start/logos/legacy-logo-light.svg
-6c9b9f659d37264713f9b2b55e6f09f7e4aa42abf478a65812665362ff0e341b  ./DISTRIBUTION.md
 91391f5de82fd09df335478f2ec1943d0e6d13139936f964840e8891dffa1811  ./PORTABLE_PATH_MAP.md
 98a5238cac328aa9da6fd0d87e2f2ae4639da58e2d4121d0d4822871c930d0f9  ./reference/design-principles/DESIGN_PRINCIPLES_2026.md
 9da0a90dc7027d361b59dff0831c2d8cb98ea20db5e7ff689272a141cc0dfa7f  ./reference/design-principles/BRAND_ASSET_LIBRARY.md
@@ -22,5 +23,4 @@ bfe46ee10ca76d023c0846fb84d392fbc7aa0c10b93f8ad7627e97f90732358f  ./.gitignore
 c710a79fcbbb9f1f2e32479c8b1085ae7202ac85fe570a730e7df735cab0c461  ./SOURCE_PROVENANCE.md
 c7226a403942f3ac2e138e874daf01055f87de8083cb1a3bf91a98204ccffbf9  ./reference/brand-assets/quick-start/logos/legacy-wave-mark.svg
 d5d125bebd8263816271723b023fafcb48a2e36412fd38ecff38307cb358e5f9  ./BENCHMARKS.md
-d64ac83f3d70048d327deea2a44b82f4f58293eb479d0dc6f9905bf4e61c9ef9  ./FILE_INDEX.tsv
 f5d9b649d9840833264721f241275f54249f3d57688c03bc9f9dbfbcdeb5ad2a  ./reference/brand-assets/quick-start/guidelines/Obenan-Wave-Reference.pdf
