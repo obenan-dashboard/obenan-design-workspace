@@ -1,0 +1,29 @@
+# Decision Requests v2
+
+Status: FOUNDER DECISIONS REQUIRED
+
+Research cutoff: 2026-08-19
+
+These are the decisions that block promotion of this synthesis from proposed to approved knowledge. They do not reopen founder direction already settled: customer as hero, Obenan as guide, AI change as the emotional context, warm peer voice, platform-neutral leads, no invented prospect biography, no fear or shame, and no guaranteed or unlimited-autonomy claims.
+
+| ID | Exact decision | Recommended default | Evidence basis | What remains unproven | Owner or reviewer needed | Downstream files or surfaces affected |
+| --- | --- | --- | --- | --- | --- | --- |
+| DR-01 | Approve the semantic north star and rule set in Messaging Core v2 as reusable guidance, separate from any exact slogan or illustrative line. | Approve the rules only. Keep every illustrative pattern noncanonical until separately approved. | Founder direction; all eight reports; strongest convergence in 01, 02, 06, and 07. | Which exact English wording customers find most recognizable, credible, and memorable. | Seven as founder and brand owner. | Messaging Core, Applied Guide, all future website, deck, campaign, product-copy, and editorial briefs. |
+| DR-02 | Decide whether the English "chase AI" direction may enter copy testing or should remain research language only. | Permit it only as an English test candidate. Do not make it a master string or approved slogan. | 02 and 06 find it emotionally direct; 08 identifies race, pursuit, and translation risks. | Whether intended English readers hear companionship rather than behindness, pressure, or total relief. | Seven, English customer-research owner, brand reviewer. | Homepage hero, campaign copy, sales-deck openings, English semantic briefs. |
+| DR-03 | Set the evidence threshold for turning the AI-change tension and bounded-relief language from founder direction into approved customer language. | Require dated first-party research across priority segments, including comprehension, credibility, control, and false-capability inference. Approve the tension as strategy meanwhile, not as a universal customer fact. | 03 and 05 show heterogeneous attitudes and no Obenan-specific corpus; 06 requires direct validation. | Segment prevalence, natural wording, differences by scale and service model, and commercial response. | Seven, customer-research owner, Sales or Customer Success evidence custodian. | Core wording, segment pages, free-value route, sales presentations, campaign claims. |
+| DR-04 | Name the authoritative product-claim owner and evidence register that must clear conditional verbs and interface benefits. | No monitors, prepares, acts, fixes, handles, delivers, on-your-behalf, automatic, ongoing, reduced-dashboard, or assistant-access claim becomes reusable copy until the owner signs a current claim record. | 01 product conflicts; 07 bounded-delegation model and proof gates; current workspace lacks production proof. | Current jobs, authority, reliability, receipts, verification, recovery, route support, and external dependencies. | Seven to assign; Product, Engineering, Security, Legal or Claims reviewers as applicable. | Core conditional families, solution pages, demos, product UI, sales proof, compatibility copy. |
+| DR-05 | Approve the locale governance model before any non-English wording becomes approved knowledge. | One semantic brief and separate native transcreation, semantic review, comprehension testing, rendered QA, and approval per locale. Decide the Spanish target before drafting; keep Portuguese Brazil and Portuguese Portugal fully separate. | 08; official locale guidance; cross-cultural and translation evidence. | Natural Obenan customer language, address preference, semantic recovery, layout fit, and product parity in each locale. | Seven, localization owner, two qualified native reviewers per locale, Product and Legal for claims. | All seven locale routes, metadata, navigation, buttons, forms, campaigns, decks, product UI. |
+| DR-06 | Define the approved-knowledge boundary between evergreen messaging rules and time-sensitive claims or examples. | Promote evergreen rules as one versioned canon. Keep exact copy, product counts, cases, compatibility, performance, scarcity, and locale strings in separately versioned, owner-reviewed registers. | 01 shows product drift; 03 and 07 require state and proof discipline; repository governance separates proposed from approved. | The long-term curator, review cadence, expiry rules, and evidence-register location. | Seven, messaging curator, Product-claim owner, repository custodian. | Approved knowledge structure, agent onboarding, release checklists, all reusable copy sources. |
+
+Founder decisions required: 6
+
+## Promotion sequence
+
+1. Seven records decisions DR-01 through DR-06, including any rejected or narrowed recommendation.
+2. Named owners attach the required customer, product, legal, privacy, security, and locale evidence without editing the preserved research reports.
+3. A messaging curator prepares a clean promotion candidate that contains only approved rules and explicitly approved wording. Conditional claims stay conditional; illustrative copy is excluded unless separately approved.
+4. Product and claim owners verify every time-sensitive statement against the authoritative register at the candidate's cutoff date.
+5. Native reviewers approve each locale independently where locale material is included, with semantic and rendered evidence recorded.
+6. Seven approves the exact candidate files and hashes for promotion.
+7. The repository custodian adds the approved version under knowledge/messaging/approved with provenance, decision IDs, review date, expiry or refresh triggers, and no implied publication or deployment authority.
+8. Future agents read the approved version first and treat this proposed synthesis as historical decision evidence.
