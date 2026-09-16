@@ -1,0 +1,93 @@
+Report created: 
+	17.09.2024	23:27:39
+
+Project name: 0917 step two.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0917 step two folder
+
+Source files collected: All
+
+Collected comps:  
+	PRESS
+	logo_small 3
+	ramp
+	logo_small 3
+	bg
+	step two three
+	BG
+	ramp
+	toolba
+	bar 01
+	Chart 2
+	bar 03
+	fairmont 2
+	Chart 3
+	top 2
+	bottom
+	
+Number of collected files:  33
+
+Size of collected files:  2,8 MB
+
+Collected source files: 
+	D:\__work assets\coursor.png
+	D:\__work assets\cursor_cursor.png
+	D:\Obenan\Onboarding\assets\ball.png
+	D:\Obenan\Onboarding\assets\toolbar.png
+	D:\Obenan\Onboarding\assets\VTCRD_Background_2.mp4
+	D:\Obenan\Onboarding\assets\Снимок.png
+	D:\Obenan\step one\assts\bar 01.png
+	D:\Obenan\step one\assts\bar 02.png
+	D:\Obenan\step one\assts\bar 03.png
+	D:\Obenan\step one\assts\Chart 1.png
+	D:\Obenan\step one\assts\Chart.png
+	D:\Obenan\step one\assts\fairmont.png
+	D:\Obenan\step one\assts\optmzd.png
+	D:\Obenan\step one\assts\top.png
+	D:\Obenan\step one\assts\txt 1.pdf
+	D:\Obenan\step one\assts\txt 2.pdf
+	D:\Obenan\step two\assts\add.png
+	D:\Obenan\step two\assts\bottom.png
+	D:\Obenan\step two\assts\btn 01.png
+	D:\Obenan\step two\assts\btn 03.png
+	D:\Obenan\step two\assts\crd 1.png
+	D:\Obenan\step two\assts\crd 2.png
+	D:\Obenan\step two\assts\go 1.pdf
+	D:\Obenan\step two\assts\go 2.pdf
+	D:\Obenan\step two\assts\Hooray!.pdf
+	D:\Obenan\step two\assts\publ 01.png
+	D:\Obenan\step two\assts\publ 02.png
+	D:\Obenan\step two\assts\publ 03.png
+	D:\Obenan\step two\assts\publ 04.png
+	D:\Obenan\step two\assts\Publishing.pdf
+	D:\Obenan\step two\assts\Step 1.pdf
+	D:\Obenan\step two\assts\Step 2.pdf
+	D:\Obenan\step two\assts\Step 3.pdf
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  8
+
+Effect:  Circle
+	
+Effect:  Curves
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Gradient Ramp
+	
+Effect:  Slider Control
+	
+Effect:  Transform
+	
+Effect:  Turbulent Displace
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Helvetica Neue”, Font style: “Light”
+

@@ -10,8 +10,9 @@ Small convenience copies for immediate identity orientation:
 - light legacy logo
 - standalone legacy wave mark
 
-The quick-start copies do not replace the full original mirror, which is in the
-separately delivered FULL archive.
+The quick-start copies do not replace the full original mirror. Browse the
+individual source files under [`original/Gleb/`](original/Gleb/) or download
+the separately delivered FULL archive linked in `../../DISTRIBUTION.md`.
 
 ## Usage
 

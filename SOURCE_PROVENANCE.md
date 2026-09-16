@@ -29,7 +29,12 @@ The original source path ends in a trailing space. The source directory was
 not modified. The FULL portable copy dereferences cloud placeholders so that
 archive contains real bytes. Only macOS `.DS_Store` metadata is excluded.
 
-The starter does not include the complete heavy asset tree.
+On 2026-09-16, Seven authorized publishing the material files from its `Gleb/`
+subfolder as an individual-file mirror under
+`reference/brand-assets/original/Gleb/`. The mirror retains the 350 material
+files and their relative paths and excludes only 20 macOS `.DS_Store` metadata
+files. Large media and project archives are stored with Git LFS. The source
+folder was not modified; publication is not approval of current-brand use.
 
 ## External live source
 

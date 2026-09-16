@@ -71,11 +71,13 @@ live state. Production code and release evidence are not bundled here.
 Exploratory frames, legacy assets, local branches, agent output, and previews
 are not canonical by themselves.
 
-Figma files and the FULL Gleb archive
-(`Obenan-Design-Workspace-for-Ceren-2026-08-16-FULL.zip`) are listed in
-`research/README.md`; DR-D02 decides which Figma file is canonical, and the
-archive is unaudited, so presentation and social material stay outside
-coverage.
+The original Gleb asset files are browsable individually under
+`reference/brand-assets/original/Gleb/`; the standalone FULL archive
+(`Obenan-Design-Workspace-for-Ceren-2026-08-16-FULL.zip`) remains available
+from the release linked in `DISTRIBUTION.md`. Figma sources are listed in
+`research/README.md`; DR-D02 decides which Figma file is canonical. The Gleb
+assets are source files, not an audit or approval of presentation, social, or
+current-brand use.
 
 ## Starting an agent
 

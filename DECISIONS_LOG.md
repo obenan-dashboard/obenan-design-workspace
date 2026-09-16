@@ -1,5 +1,18 @@
 # Decisions Log
 
+## Publish individually browsable Gleb source assets
+
+Date: 2026-09-16
+
+Decision: Seven authorized pushing all material files from the original Gleb
+branding-assets folder to the design workspace repository so collaborators can
+access them individually. Preserve source bytes and relative paths; exclude
+only macOS `.DS_Store` metadata and use Git LFS for large binary files.
+
+Consequence: GitHub availability and current-brand approval remain distinct.
+The original release archive remains available; this does not select a current
+logo, visual treatment, or publication rights for a new customer surface.
+
 ## Portable source-backed handoff
 
 Date: 2026-08-16
@@ -32,4 +45,3 @@ the current production repository and its live release controls.
 
 Reason: A design reference workspace must not silently broaden technical or
 external authority.
-

@@ -1,0 +1,72 @@
+Report created: 
+	17.09.2024	23:26:12
+
+Project name: 0917 onboarding.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0917 onboarding folder
+
+Source files collected: All
+
+Collected comps:  
+	PRESS
+	ai ai 01
+	logo_small 3
+	oboarding
+	txt 1
+	bg
+	BG
+	txt 5
+	ramp
+	txt 6
+	txt 7
+	options
+	
+Number of collected files:  18
+
+Size of collected files:  3,4 MB
+
+Collected source files: 
+	D:\__work assets\coursor.png
+	D:\__work assets\cursor_cursor.png
+	D:\Obenan\Assistant\assts\Mask group.png
+	D:\Obenan\Assistant\assts\txt 1.pdf
+	D:\Obenan\Onboarding\assets\001.png
+	D:\Obenan\Onboarding\assets\002.png
+	D:\Obenan\Onboarding\assets\003.png
+	D:\Obenan\Onboarding\assets\004.png
+	D:\Obenan\Onboarding\assets\ball.png
+	D:\Obenan\Onboarding\assets\btn 1.png
+	D:\Obenan\Onboarding\assets\btn 2.png
+	D:\Obenan\Onboarding\assets\Frame 01.png
+	D:\Obenan\Onboarding\assets\Frame 02.png
+	D:\Obenan\Onboarding\assets\Frame 03.png
+	D:\Obenan\Onboarding\assets\Frame bg.png
+	D:\Obenan\Onboarding\assets\toolbar.png
+	D:\Obenan\Onboarding\assets\VTCRD_Background_2.mp4
+	D:\Obenan\Onboarding\assets\Снимок.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  7
+
+Effect:  4-Color Gradient
+	
+Effect:  Circle
+	
+Effect:  Curves
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Transform
+	
+Effect:  Turbulent Displace
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Helvetica Neue”, Font style: “Light”
+

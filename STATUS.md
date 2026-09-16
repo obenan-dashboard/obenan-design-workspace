@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-08-19
+Last updated: 2026-09-16
 
 ## Workspace state
 
@@ -14,8 +14,11 @@ portable agent entrypoint, and a deterministic file and hash inventory.
 
 Verified: every starter file is a real local file with zero symlinks; all five
 Markdown design sources byte-match their originals; both original PDF
-references rendered and passed visual inspection. The complete 382-file
-original asset layer is delivered separately in the FULL archive.
+references rendered and passed visual inspection. The complete historical
+workspace remains available in the FULL release archive. Seven authorized an
+individual-file mirror of the Gleb source assets on 2026-09-16; its 350
+material files are under `reference/brand-assets/original/Gleb/`, with large
+media tracked by Git LFS. This improves access, not approval for current use.
 
 ## Current truth
 

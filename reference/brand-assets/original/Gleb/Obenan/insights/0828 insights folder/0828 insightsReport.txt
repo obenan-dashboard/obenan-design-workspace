@@ -1,0 +1,76 @@
+Report created: 
+	17.09.2024	23:29:09
+
+Project name: 0828 insights.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0828 insights folder
+
+Source files collected: All
+
+Collected comps:  
+	insights
+	crd 3
+	Chart 1
+	Chart 2
+	crd 4
+	crd 7
+	crd 8
+	crd 2
+	
+Number of collected files:  28
+
+Size of collected files:  655 KB
+
+Collected source files: 
+	D:\Obenan\insights\assts\body 1.png
+	D:\Obenan\insights\assts\Chart 0.png
+	D:\Obenan\insights\assts\Chart 1.png
+	D:\Obenan\insights\assts\crd 1.png
+	D:\Obenan\insights\assts\crd 2.png
+	D:\Obenan\insights\assts\crd 22.png
+	D:\Obenan\insights\assts\crd 3.png
+	D:\Obenan\insights\assts\crd 4.png
+	D:\Obenan\insights\assts\crd 44.png
+	D:\Obenan\insights\assts\crd 5.png
+	D:\Obenan\insights\assts\crd 6.png
+	D:\Obenan\insights\assts\crd 77.png
+	D:\Obenan\insights\assts\crd 88.png
+	D:\Obenan\insights\assts\head.png
+	D:\Obenan\insights\assts\Icon 11.png
+	D:\Obenan\insights\assts\Icon 22.png
+	D:\Obenan\insights\assts\Icon 33.png
+	D:\Obenan\insights\assts\Light.png
+	D:\Obenan\insights\assts\txt 01.png
+	D:\Obenan\insights\assts\txt 02.png
+	D:\Obenan\insights\assts\txt 03.png
+	D:\Obenan\insights\assts\txt 1.png
+	D:\Obenan\insights\assts\txt 2.png
+	D:\Obenan\insights\assts\txt 3.png
+	D:\Obenan\insights\assts\txt 5.png
+	D:\Obenan\insights\assts\txt 6.png
+	D:\Obenan\insights\assts\txt 7.png
+	D:\Obenan\insights\assts\txt 8.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  6
+
+Effect:  Drop Shadow
+	
+Effect:  Fast Box Blur
+	
+Effect:  Gradient Ramp
+	
+Effect:  Invert
+	
+Effect:  Slider Control
+	
+Effect:  Transform
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “HelveticaNeueCyr”, Font style: “Medium”
+

@@ -1,0 +1,82 @@
+Report created: 
+	17.09.2024	23:30:55
+
+Project name: 0917 assistant.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0917 assistant folder
+
+Source files collected: All
+
+Collected comps:  
+	assistant
+	PRESS
+	txt 1
+	mic
+	icon
+	msg 2
+	txt 4
+	ai ai 01
+	logo_small 2
+	logo_small 3
+	ai ai 02
+	ai ai 03
+	logo_small 4
+	
+Number of collected files:  25
+
+Size of collected files:  1,0 MB
+
+Collected source files: 
+	D:\__work assets\coursor.png
+	D:\__work assets\cursor_cursor.png
+	D:\Obenan\Assistant\assts\ai 1.png
+	D:\Obenan\Assistant\assts\bg.png
+	D:\Obenan\Assistant\assts\cici 1.png
+	D:\Obenan\Assistant\assts\cici 2.png
+	D:\Obenan\Assistant\assts\cici 3.png
+	D:\Obenan\Assistant\assts\icn 1.pdf
+	D:\Obenan\Assistant\assts\icn bg.png
+	D:\Obenan\Assistant\assts\Mask group.png
+	D:\Obenan\Assistant\assts\mic.png
+	D:\Obenan\Assistant\assts\msg 1.png
+	D:\Obenan\Assistant\assts\msg 2.png
+	D:\Obenan\Assistant\assts\msg 22.png
+	D:\Obenan\Assistant\assts\photo.png
+	D:\Obenan\Assistant\assts\tag 1.png
+	D:\Obenan\Assistant\assts\tag 2.png
+	D:\Obenan\Assistant\assts\tag 3.png
+	D:\Obenan\Assistant\assts\ttatta 1.pdf
+	D:\Obenan\Assistant\assts\ttatta 2.pdf
+	D:\Obenan\Assistant\assts\ttatta 3.pdf
+	D:\Obenan\Assistant\assts\txt 1.pdf
+	D:\Obenan\Assistant\assts\txt 2.pdf
+	D:\Obenan\Assistant\assts\txt 3.pdf
+	D:\Obenan\Assistant\assts\txt 4.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  8
+
+Effect:  4-Color Gradient
+	
+Effect:  Circle
+	
+Effect:  Curves
+	
+Effect:  Drop Shadow
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Invert
+	
+Effect:  Transform
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Helvetica Neue”, Font style: “Light”
+

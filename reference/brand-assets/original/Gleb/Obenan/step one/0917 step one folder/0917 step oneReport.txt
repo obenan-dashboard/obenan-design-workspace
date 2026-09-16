@@ -1,0 +1,183 @@
+Report created: 
+	17.09.2024	23:26:51
+
+Project name: 0917 step one.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0917 step one folder
+
+Source files collected: All
+
+Collected comps:  
+	PRESS
+	logo_small 3
+	step one
+	bg
+	ramp
+	top
+	toolba
+	bar 01
+	btn 1
+	popup mmain
+	BG 2
+	popup mask
+	txt 8
+	btn 01
+	bottom 1
+	prim 02
+	sec 00
+	prim 03
+	shape
+	fairmont
+	Chart 1
+	Chart 2
+	bar 03
+	fairmont 2
+	Chart 3
+	
+Number of collected files:  110
+
+Size of collected files:  5,0 MB
+
+Collected source files: 
+	D:\__work assets\coursor.png
+	D:\__work assets\cursor_cursor.png
+	D:\Obenan\Assistant\assts\txt 1.pdf
+	D:\Obenan\Onboarding\assets\ball.png
+	D:\Obenan\Onboarding\assets\toolbar.png
+	D:\Obenan\Onboarding\assets\VTCRD_Background_2.mp4
+	D:\Obenan\Onboarding\assets\Снимок.png
+	D:\Obenan\step one\assts\5-star.pdf
+	D:\Obenan\step one\assts\attr 01.png
+	D:\Obenan\step one\assts\bar 01.png
+	D:\Obenan\step one\assts\bar 02.png
+	D:\Obenan\step one\assts\bar 03.png
+	D:\Obenan\step one\assts\bottom 11.png
+	D:\Obenan\step one\assts\bottom.png
+	D:\Obenan\step one\assts\btn 001.png
+	D:\Obenan\step one\assts\btn 002.png
+	D:\Obenan\step one\assts\btn 01.png
+	D:\Obenan\step one\assts\btn 02.png
+	D:\Obenan\step one\assts\btn 1.png
+	D:\Obenan\step one\assts\Chart 1.png
+	D:\Obenan\step one\assts\Chart.png
+	D:\Obenan\step one\assts\desc 01.png
+	D:\Obenan\step one\assts\fai 01.png
+	D:\Obenan\step one\assts\fai 02.png
+	D:\Obenan\step one\assts\fai 03.png
+	D:\Obenan\step one\assts\fai 04.png
+	D:\Obenan\step one\assts\fai 05.png
+	D:\Obenan\step one\assts\fairmont.png
+	D:\Obenan\step one\assts\fit 000.png
+	D:\Obenan\step one\assts\fit 01.png
+	D:\Obenan\step one\assts\fit 02.png
+	D:\Obenan\step one\assts\fit 022.png
+	D:\Obenan\step one\assts\fit 03.png
+	D:\Obenan\step one\assts\foood.png
+	D:\Obenan\step one\assts\Frame 3.png
+	D:\Obenan\step one\assts\icn.pdf
+	D:\Obenan\step one\assts\img.png
+	D:\Obenan\step one\assts\key 01.png
+	D:\Obenan\step one\assts\keywordds.png
+	D:\Obenan\step one\assts\kkey 000.png
+	D:\Obenan\step one\assts\kkey 00111.png
+	D:\Obenan\step one\assts\kkey 0011111.png
+	D:\Obenan\step one\assts\kkey 0011111111.png
+	D:\Obenan\step one\assts\kkey 002.png
+	D:\Obenan\step one\assts\kkey 003.png
+	D:\Obenan\step one\assts\kkey 004.png
+	D:\Obenan\step one\assts\kkey 005.png
+	D:\Obenan\step one\assts\Lodging.pdf
+	D:\Obenan\step one\assts\Love Hotel.pdf
+	D:\Obenan\step one\assts\maaap.png
+	D:\Obenan\step one\assts\optmzd.png
+	D:\Obenan\step one\assts\page 1.png
+	D:\Obenan\step one\assts\page 2.png
+	D:\Obenan\step one\assts\page 3.png
+	D:\Obenan\step one\assts\pattern.png
+	D:\Obenan\step one\assts\pin 01.png
+	D:\Obenan\step one\assts\pin 1.png
+	D:\Obenan\step one\assts\pin 2.png
+	D:\Obenan\step one\assts\pin 3.png
+	D:\Obenan\step one\assts\pin 4.png
+	D:\Obenan\step one\assts\prim 01.png
+	D:\Obenan\step one\assts\prim 03.png
+	D:\Obenan\step one\assts\primary.png
+	D:\Obenan\step one\assts\sec 01.png
+	D:\Obenan\step one\assts\sec 02.png
+	D:\Obenan\step one\assts\sec 03.png
+	D:\Obenan\step one\assts\sec 04.png
+	D:\Obenan\step one\assts\secondary.png
+	D:\Obenan\step one\assts\Select All.pdf
+	D:\Obenan\step one\assts\self 000.png
+	D:\Obenan\step one\assts\self 01.png
+	D:\Obenan\step one\assts\self 02.png
+	D:\Obenan\step one\assts\self 03.png
+	D:\Obenan\step one\assts\self 04.png
+	D:\Obenan\step one\assts\selffff 01.png
+	D:\Obenan\step one\assts\selffff 02.png
+	D:\Obenan\step one\assts\selffff 03.png
+	D:\Obenan\step one\assts\selffff 04.png
+	D:\Obenan\step one\assts\tab 1.png
+	D:\Obenan\step one\assts\tab 11.png
+	D:\Obenan\step one\assts\tab 2.png
+	D:\Obenan\step one\assts\tab 22.png
+	D:\Obenan\step one\assts\tab 222.png
+	D:\Obenan\step one\assts\tab 3.png
+	D:\Obenan\step one\assts\tab 33.png
+	D:\Obenan\step one\assts\tab 333.png
+	D:\Obenan\step one\assts\tab 4.png
+	D:\Obenan\step one\assts\tab 44.png
+	D:\Obenan\step one\assts\tag 01.png
+	D:\Obenan\step one\assts\tag 02.png
+	D:\Obenan\step one\assts\tag 03.png
+	D:\Obenan\step one\assts\tag_big 00.png
+	D:\Obenan\step one\assts\tag_big 002.png
+	D:\Obenan\step one\assts\tag_big 1.png
+	D:\Obenan\step one\assts\tag_big 2.png
+	D:\Obenan\step one\assts\tag_big 3.png
+	D:\Obenan\step one\assts\tag_big.png
+	D:\Obenan\step one\assts\tag_bigg.png
+	D:\Obenan\step one\assts\top.png
+	D:\Obenan\step one\assts\txt 1.pdf
+	D:\Obenan\step one\assts\txt 2.pdf
+	D:\Obenan\step one\assts\txt 3.pdf
+	D:\Obenan\step one\assts\txt 4.pdf
+	D:\Obenan\step one\assts\txt 5.pdf
+	D:\Obenan\step one\assts\txt 6.pdf
+	D:\Obenan\step one\assts\txt 7.pdf
+	D:\Obenan\step one\assts\txt 8.pdf
+	D:\Obenan\step one\assts\winf 2.png
+	D:\Obenan\step one\assts\winf 3.png
+	D:\Obenan\step one\assts\xxx.pdf
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  10
+
+Effect:  4-Color Gradient
+	
+Effect:  Circle
+	
+Effect:  Curves
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Gradient Ramp
+	
+Effect:  Invert
+	
+Effect:  Slider Control
+	
+Effect:  Transform
+	
+Effect:  Turbulent Displace
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Helvetica Neue”, Font style: “Light”
+

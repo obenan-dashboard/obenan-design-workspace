@@ -1,0 +1,158 @@
+Report created: 
+	17.09.2024	23:28:23
+
+Project name: 0829 overview.aep
+
+Source files collected to: 
+	E:\TMP TMP TMP\0829 overview folder
+
+Source files collected: All
+
+Collected comps:  
+	PRESS
+	crd 4
+	overview
+	crd 02
+	Pre-comp 1
+	gra 1
+	gra 2
+	gra 3
+	crd 03
+	crd 04
+	crd 10
+	crd 24
+	Group 1
+	Group 2
+	crd 25
+	crd 26
+	pattern
+	crd 29.png Comp 1
+	crd 05
+	
+Number of collected files:  85
+
+Size of collected files:  4,6 MB
+
+Collected source files: 
+	D:\__work assets\coursor.png
+	D:\__work assets\cursor_cursor.png
+	D:\Obenan\insights\assts\crd 4.png
+	D:\Obenan\insights\assts\crd 44.png
+	D:\Obenan\insights\assts\Icon 11.png
+	D:\Obenan\insights\assts\Icon 22.png
+	D:\Obenan\insights\assts\Light.png
+	D:\Obenan\Overview\assts\bubble 1.png
+	D:\Obenan\Overview\assts\Chart.png
+	D:\Obenan\Overview\assts\crd 01.png
+	D:\Obenan\Overview\assts\crd 02.png
+	D:\Obenan\Overview\assts\crd 022.png
+	D:\Obenan\Overview\assts\crd 033.png
+	D:\Obenan\Overview\assts\crd 04.png
+	D:\Obenan\Overview\assts\crd 05.png
+	D:\Obenan\Overview\assts\crd 06.png
+	D:\Obenan\Overview\assts\crd 07.png
+	D:\Obenan\Overview\assts\crd 08.png
+	D:\Obenan\Overview\assts\crd 09.png
+	D:\Obenan\Overview\assts\crd 1010.png
+	D:\Obenan\Overview\assts\crd 11.png
+	D:\Obenan\Overview\assts\crd 12.png
+	D:\Obenan\Overview\assts\crd 13.png
+	D:\Obenan\Overview\assts\crd 14.png
+	D:\Obenan\Overview\assts\crd 15.png
+	D:\Obenan\Overview\assts\crd 16.png
+	D:\Obenan\Overview\assts\crd 17.png
+	D:\Obenan\Overview\assts\crd 18.png
+	D:\Obenan\Overview\assts\crd 21.png
+	D:\Obenan\Overview\assts\crd 23.png
+	D:\Obenan\Overview\assts\crd 24.png
+	D:\Obenan\Overview\assts\crd 2424.png
+	D:\Obenan\Overview\assts\crd 25.png
+	D:\Obenan\Overview\assts\crd 2525.png
+	D:\Obenan\Overview\assts\crd 2626.png
+	D:\Obenan\Overview\assts\crd 28.png
+	D:\Obenan\Overview\assts\crd 29.png
+	D:\Obenan\Overview\assts\Divider (Stroke).png
+	D:\Obenan\Overview\assts\Dot 1.png
+	D:\Obenan\Overview\assts\Dot 2.png
+	D:\Obenan\Overview\assts\Dot p 1.png
+	D:\Obenan\Overview\assts\Dot p 2.png
+	D:\Obenan\Overview\assts\Dot y 1.png
+	D:\Obenan\Overview\assts\Dot y 2.png
+	D:\Obenan\Overview\assts\Dot.png
+	D:\Obenan\Overview\assts\Group 1.png
+	D:\Obenan\Overview\assts\Icon 11.png
+	D:\Obenan\Overview\assts\Icon 22.png
+	D:\Obenan\Overview\assts\Icon 33.png
+	D:\Obenan\Overview\assts\icon-36.png
+	D:\Obenan\Overview\assts\mask.png
+	D:\Obenan\Overview\assts\meaning tooltip.png
+	D:\Obenan\Overview\assts\pattern.png
+	D:\Obenan\Overview\assts\pic 01.png
+	D:\Obenan\Overview\assts\pic 02.png
+	D:\Obenan\Overview\assts\pic 03.png
+	D:\Obenan\Overview\assts\pic 04.png
+	D:\Obenan\Overview\assts\pic 05.png
+	D:\Obenan\Overview\assts\pic 06.png
+	D:\Obenan\Overview\assts\pic 07.png
+	D:\Obenan\Overview\assts\pic 08.png
+	D:\Obenan\Overview\assts\pic 09.png
+	D:\Obenan\Overview\assts\pic 10.png
+	D:\Obenan\Overview\assts\pic 11.png
+	D:\Obenan\Overview\assts\pic 12.png
+	D:\Obenan\Overview\assts\pic 13.png
+	D:\Obenan\Overview\assts\pic 14.png
+	D:\Obenan\Overview\assts\pic 15.png
+	D:\Obenan\Overview\assts\png.png
+	D:\Obenan\Overview\assts\Rectangle 4156.png
+	D:\Obenan\Overview\assts\top.png
+	D:\Obenan\Overview\assts\txt 01.png
+	D:\Obenan\Overview\assts\txt 02.png
+	D:\Obenan\Overview\assts\txt 03.png
+	D:\Obenan\Overview\assts\txt 04.png
+	D:\Obenan\Overview\assts\txt 05.png
+	D:\Obenan\Overview\assts\txt 06.png
+	D:\Obenan\Overview\assts\txt 07.png
+	D:\Obenan\Overview\assts\txt 08.png
+	D:\Obenan\Overview\assts\txt 09.png
+	D:\Obenan\Overview\assts\txt 10.png
+	D:\Obenan\Overview\assts\txt 11.png
+	D:\Obenan\Overview\assts\txt 12.png
+	D:\Obenan\Overview\assts\txt 13.png
+	D:\Obenan\Overview\assts\View All.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  13
+
+Effect:  4-Color Gradient
+	
+Effect:  CC Light Sweep
+	
+Effect:  Circle
+	
+Effect:  Drop Shadow
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Gradient Ramp
+	
+Effect:  Invert
+	
+Effect:  Layer Control
+	
+Effect:  Slider Control
+	
+Effect:  Trace Path
+	
+Effect:  Transform
+	
+Effect:  Turbulent Displace
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “HelveticaNeueCyr”, Font style: “Light”
+

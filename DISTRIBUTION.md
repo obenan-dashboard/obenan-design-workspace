@@ -1,12 +1,15 @@
 # Distribution
 
-This private repository is the lightweight, agent-ready Obenan design
-workspace. It includes the actual Markdown design sources, the original brand
-PDFs, and the old-logo references.
+This public repository is the agent-ready Obenan design workspace. It includes
+the Markdown design sources, original brand PDFs, old-logo references, and an
+individual-file mirror of the Gleb source assets under
+[`reference/brand-assets/original/Gleb/`](reference/brand-assets/original/Gleb/).
+Large videos, After Effects projects, and ZIP packages use Git LFS.
 
-The complete 382-file, 950 MB source-backed asset workspace is distributed as
-a release asset rather than committed to Git history. Use the latest release
-named `Ceren design workspace handoff 2026-08-16`.
+For a single download that does not require Git LFS, use the release asset
+named `Ceren design workspace handoff 2026-08-16`. It is a historical full
+workspace snapshot; the GitHub tree above exposes the source assets
+individually.
 
 - Release: https://github.com/obenan-dashboard/obenan-design-workspace/releases/tag/ceren-handoff-2026-08-16
 - Full archive: https://github.com/obenan-dashboard/obenan-design-workspace/releases/download/ceren-handoff-2026-08-16/Obenan-Design-Workspace-for-Ceren-2026-08-16-FULL.zip
@@ -20,5 +23,5 @@ After downloading the release ZIP:
 3. open the extracted folder as the agent workspace
 4. read `START_HERE.md`, `AGENTS.md`, and `STATUS.md`
 
-The old logo is included for source and identity reference. It is not approval
-to reintroduce the logo into a current surface.
+The old logo is included for source and identity reference. Availability in
+either format is not approval to reintroduce it into a current surface.

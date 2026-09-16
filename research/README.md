@@ -72,11 +72,13 @@ verified.
 | Quick-start logo SVGs | `../reference/brand-assets/quick-start/logos/` | `legacy-logo-dark.svg`, `legacy-logo-light.svg`, `legacy-wave-mark.svg`; bytes identical to `origin/main` `obenan-logo-{dark,light}.svg` | 2026-08-16 copy | Reuse-only identity asset | Authority for new surfaces unresolved (DR-D01); usage of the spectrum unresolved (DR-D07) | current asset, authority unresolved | DR-D01, DR-D07; identity router row |
 | Workspace provenance files | [../SOURCE_PROVENANCE.md](../SOURCE_PROVENANCE.md), [../VERIFICATION.md](../VERIFICATION.md), [../DECISIONS_LOG.md](../DECISIONS_LOG.md), [../MANIFEST.sha256](../MANIFEST.sha256), [../FILE_INDEX.tsv](../FILE_INDEX.tsv) | Where the starter files came from, how they were verified, and which decisions are already recorded | 2026-08-16 | Integrity checks; decision history | Cover the starter package, not the August research | current | Lock manifest |
 
-## Outside this workspace (declared gaps, not covered)
+## Declared gaps and material not yet audited
 
-- The FULL Gleb archive (382 files, release asset): presentation, social,
-  motion, and UI-package material. Not audited; presentation discipline and
-  deck spectrum usage remain UNRESOLVED.
+- The FULL Gleb archive (382 files, release asset) remains a separate
+  downloadable snapshot. Its Gleb source files are now individually mirrored
+  under `../reference/brand-assets/original/Gleb/`: presentation, social,
+  motion, and UI-package material. These are not audited; presentation
+  discipline and deck spectrum usage remain UNRESOLVED.
 - Representative current sales decks: not audited.
 - Figma files beyond the inspected nodes: Design Kit `8QpdzNKUeLPAhBzcUkzeuV`
   (cover `25:9594`, `28:6673`), V1 dashboard `OkXCFToKDIyje58fjdIoXt` (canvas
