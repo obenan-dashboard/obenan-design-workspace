@@ -6,7 +6,7 @@
 - [x] Track large media and project archives with Git LFS; keep browsable filenames in the repository.
 - [x] Update the workspace entrypoints and provenance to distinguish source availability from approval for current use.
 - [x] Verify source-to-repository file counts and SHA-256 hashes, Git LFS pointers, and the final changed-path ceiling.
-- [ ] Publish to GitHub and verify the repository tree and exact asset URLs remotely.
+- [x] Publish to GitHub and verify the repository tree and exact asset URLs remotely.
 
 ## Review
 
@@ -14,4 +14,8 @@
 their copied source bytes (LFS pointer OIDs for 48 large-file paths). The
 source and mirror also matched on all 350 SHA-256 hashes; only 20 Finder
 `.DS_Store` files were excluded. `git diff --cached --check` passed.
-Remote publication and URL checks remain open.
+GitHub `main` reached `66b375f8ae29bd72b280e29aabe795fb44a0ff83`.
+The untruncated GitHub tree lists all 350 Gleb material files. The asset
+folder, logo-animation folder, and sample logo-loop page returned HTTP 200;
+the sample Git LFS video URL returned HTTP 200 with its full 16,821,162-byte
+content length. The historical release ZIP remains unchanged.

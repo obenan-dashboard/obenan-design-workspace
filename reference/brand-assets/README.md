@@ -12,7 +12,8 @@ Small convenience copies for immediate identity orientation:
 
 The quick-start copies do not replace the full original mirror. Browse the
 individual source files under [`original/Gleb/`](original/Gleb/) or download
-the separately delivered FULL archive linked in `../../DISTRIBUTION.md`.
+the separately delivered FULL archive linked in
+[DISTRIBUTION.md](../../DISTRIBUTION.md).
 
 ## Usage
 
