@@ -7,11 +7,22 @@
 - [x] Redact only customer-identifying, account-confidential, and directly exploitable security detail required by this public repository's safety boundary.
 - [x] Update every agent route, portable path, provenance record, status, decision, verification record, and learning record.
 - [x] Rebuild the starter integrity index and manifest; verify links, source lineage, sensitive-content boundaries, and Git cleanliness.
-- [ ] Publish the bounded documentation change and verify the exact GitHub URLs.
+- [x] Publish the bounded documentation change and verify the exact GitHub URLs.
 
 ## Review
 
-Pending implementation and remote verification.
+The unified 627-line private source at commit `32c9003` and blob
+`6d9d017a50451b81cb0df27919351c10f50f7528` was imported as one 632-line
+repository-native edition; all source section headings remain represented.
+Only customer identity, account-specific identifiers and scale, internal
+infrastructure detail, and directly exploitable authentication detail were
+withheld for the public repository. The orientation-only derivative and every
+external-document dependency were removed. All relative Markdown links
+resolve, the restricted and stale marker scan passes, all 33 indexed files and
+`FILE_INDEX.tsv` pass `MANIFEST.sha256`, and `git diff --check` passes.
+Publication commit `9fe106025108033fdea1c15d090a54376984db3b` reached GitHub `main`; the
+unified document, product lane README, and root library map each returned HTTP
+200, while the removed derivative returned 404 from the raw URL.
 
 ---
 
