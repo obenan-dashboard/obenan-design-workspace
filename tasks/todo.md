@@ -10,7 +10,7 @@
 - [x] Link the new map from every agent entrypoint and the task router.
 - [x] Verify all new relative links, sensitive-content boundaries, changed
   paths, and Git status.
-- [ ] Publish the bounded documentation change and verify the GitHub URLs.
+- [x] Publish the bounded documentation change and verify the GitHub URLs.
 
 ## Review
 
@@ -20,7 +20,9 @@ Markdown files resolve; the Gleb tree contains the indexed 36 video and 14
 motion-source/package files; the product source blob matches commit `a53aa79`;
 restricted markers are absent from the public product lane; and
 `git diff --check` passes. The Google Doc correctly remains access-controlled.
-GitHub publication and remote URL checks remain pending.
+Publication commit `82e9676a5a837a723a0ccd46fecb56451357fe80`
+reached GitHub `main`; the untruncated remote tree contains all four new hub
+files, and their GitHub pages returned HTTP 200.
 
 ---
 
