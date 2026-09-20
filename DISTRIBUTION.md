@@ -21,7 +21,7 @@ After downloading the release ZIP:
 1. verify its published SHA-256
 2. extract it
 3. open the extracted folder as the agent workspace
-4. read `START_HERE.md`, `AGENTS.md`, and `STATUS.md`
+4. read `START_HERE.md`, `AGENTS.md`, `STATUS.md`, and `LIBRARY_MAP.md`
 
 The old logo is included for source and identity reference. Availability in
 either format is not approval to reintroduce it into a current surface.

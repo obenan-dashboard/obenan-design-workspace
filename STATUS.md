@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-09-16
+Last updated: 2026-09-20
 
 ## Workspace state
 
@@ -10,7 +10,10 @@ Owner: Seven
 
 Contains the current design-principle and brand-system sources, original
 old-logo variants and brand books, quick-start legacy logo references, a
-portable agent entrypoint, and a deterministic file and hash inventory.
+portable agent entrypoint, and a deterministic file and hash inventory. The
+root `LIBRARY_MAP.md` now provides one explicit route to brand story, brand
+documentation, logos, teasers, motion, UI source projects, and product UI/UX
+mapping.
 
 Verified: every starter file is a real local file with zero symlinks; all five
 Markdown design sources byte-match their originals; both original PDF
@@ -26,6 +29,10 @@ media tracked by Git LFS. This improves access, not approval for current use.
 - Inclusion is not approval to revive it on a current surface.
 - The Figma Brand file remains a live external design source.
 - Current production code and release evidence are outside this workspace.
+- The September 2026 product UI/UX map is dated observed evidence. Its
+  public-safe orientation is under `knowledge/product/`; the complete report
+  remains access-controlled because it contains customer and
+  security-sensitive observations.
 
 ## Active workstreams
 

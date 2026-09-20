@@ -7,7 +7,10 @@
   expected in the starter are present.
 - The quick-start logo and brand-book files are real files, not symlinks or
   cloud placeholders.
-- `FILE_INDEX.tsv` and `MANIFEST.sha256` cover the delivered workspace.
+- `FILE_INDEX.tsv` and `MANIFEST.sha256` cover the current starter integrity
+  set: entrypoints, routing, public product map, motion index, design sources,
+  quick-start identity references, and provenance files. Git history and the
+  Gleb publication record cover the larger research and binary source tree.
 - A fresh extraction preserves the starter filenames, file counts, sizes, and
   hashes.
 
@@ -22,6 +25,8 @@ An agent succeeds when it can identify:
 - the restricted status of the legacy logo
 - the applicable imagery, accessibility, motion, locale, and product-truth
   gates
+- the direct route to brand story, brand documentation, logos, teasers,
+  motion projects, and product UI/UX mapping
 - the fact that this workspace is not release authority
 
 ## Design quality

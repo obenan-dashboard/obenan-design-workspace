@@ -3,8 +3,9 @@
 Portable Obenan design workspace for any human or agent working on
 customer-visible design and messaging: design sources, original old-logo
 variants, both brand guideline PDFs, the messaging and design research, and
-the proposed operating documents. This is design context, not a production
-codebase and not authority to publish, merge, or deploy.
+the proposed operating documents. It also routes to the dated product UI/UX
+map. This is design context, not a production codebase and not authority to
+publish, merge, or deploy.
 
 ## Two connected systems
 
@@ -18,14 +19,27 @@ codebase and not authority to publish, merge, or deploy.
 
 | Layer | Read when | Files |
 | --- | --- | --- |
-| 1. Start and route | Always, first | `START_HERE.md`, `AGENTS.md`, `STATUS.md`, `knowledge/README.md`, plus `CLAUDE.md` for Claude Code. `knowledge/TASK_ROUTER.md` is Layer 1 by role, read one row at a time |
+| 1. Start and route | Always, first | `START_HERE.md`, `AGENTS.md`, `STATUS.md`, `LIBRARY_MAP.md`, `knowledge/README.md`, plus `CLAUDE.md` for Claude Code. `knowledge/TASK_ROUTER.md` is Layer 1 by role, read one row at a time |
 | 2. Operating core | Per your router row | The messaging and design cores under `knowledge/*/proposed/`, with the two `DECISION_REQUESTS` files beside them |
 | 3. Task-specific application | When the task touches that surface | The applied guides, the token and component contract, and the surface rules in `reference/design-principles/` |
 | 4. Evidence and research | On the retrieval triggers in `AGENTS.md` | `research/README.md` (evidence index) and everything it maps |
 
 Cores and guides are PROPOSED, not approved, not canonical, until Seven
 records a decision; `knowledge/*/approved/` is empty until then. `STATUS.md`
-and `LOCK_CANDIDATE_MANIFEST.md` hold each file's exact state.
+holds current state; `LOCK_CANDIDATE_MANIFEST.md` preserves the historical
+2026-08-19 candidate hashes.
+
+## Quick find
+
+Use [`LIBRARY_MAP.md`](LIBRARY_MAP.md) for the complete retrieval map.
+
+| Looking for | Go to |
+| --- | --- |
+| Motion designs, teasers, logo loops, UI animations, After Effects, ZIP packages | [`reference/brand-assets/MOTION_INDEX.md`](reference/brand-assets/MOTION_INDEX.md) |
+| Logos and brand books | [`reference/brand-assets/README.md`](reference/brand-assets/README.md) |
+| Brand story and messaging | [`knowledge/messaging/README.md`](knowledge/messaging/README.md) |
+| Brand and design documentation | [`reference/design-principles/`](reference/design-principles/) |
+| Product UI/UX mapping | [`knowledge/product/README.md`](knowledge/product/README.md) |
 
 ## Task types
 
@@ -84,7 +98,8 @@ current-brand use.
 Open this folder as the agent workspace. Tell the agent:
 
 > Read `START_HERE.md`, `AGENTS.md`, `STATUS.md`, and `knowledge/README.md`
-> completely (Claude Code also reads `CLAUDE.md`). State your task type,
+> completely, then use `LIBRARY_MAP.md` to locate the relevant assets (Claude
+> Code also reads `CLAUDE.md`). State your task type,
 > surface family, requested outcome, authority granted, selected reading
 > bundle, and known unresolved gates. Retrieve only your row from
 > `knowledge/TASK_ROUTER.md`, read only that bundle, then return the preflight

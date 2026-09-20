@@ -1,9 +1,12 @@
-# Obenan Design Workspace for Ceren
+# Obenan Design and Product Knowledge Workspace
 
-Extract this folder and open it as the workspace for your design agent.
+Shared, agent-ready access to Obenan design guidance, brand story, original
+brand and motion assets, research, and dated product UI/UX observations.
 
-Start with `START_HERE.md`. Claude Code also reads `CLAUDE.md` automatically
-when the folder is opened as its working directory.
+Start with [`START_HERE.md`](START_HERE.md), then use
+[`LIBRARY_MAP.md`](LIBRARY_MAP.md) to find the exact asset or knowledge family.
+Claude Code also reads `CLAUDE.md` automatically when the folder is opened as
+its working directory.
 
 This starter package includes the actual source Markdown files, original old
 logo variants, and both brand guideline PDFs. The separately delivered FULL
@@ -11,4 +14,6 @@ archive contains the complete 382-file Gleb branding and motion library. This
 starter is portable and uses relative paths.
 
 The old logo is included as heritage/source reference and must not be revived
-on a current surface without an explicit design decision.
+on a current surface without an explicit design decision. Dated product maps
+are observed evidence, not an implementation contract or proof of current
+live behavior.

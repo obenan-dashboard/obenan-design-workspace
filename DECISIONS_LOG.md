@@ -1,5 +1,18 @@
 # Decisions Log
 
+## One public navigation map, restricted detailed product evidence
+
+Date: 2026-09-20
+
+Decision: Add `LIBRARY_MAP.md` as the stable route to brand story, brand
+documentation, logos, teasers, motion, product UI source projects, and product
+UI/UX mapping. Add a public-safe dated product map, while keeping the complete
+customer-account and security-sensitive report in access-controlled sources.
+
+Consequence: A zero-context colleague or agent can find each knowledge family
+from the repository root. Public discoverability does not silently disclose
+restricted observations or convert dated evidence into approved canon.
+
 ## Publish individually browsable Gleb source assets
 
 Date: 2026-09-16

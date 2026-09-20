@@ -42,3 +42,16 @@ Figma Brand file:
 https://www.figma.com/design/H3KZZ7qkFhFQLcCxBGtw1j/Brand
 
 Figma remains live and may evolve after the date of this package.
+
+## Product UI/UX mapping
+
+The public-safe September 2026 product orientation under `knowledge/product/`
+derives from the complete report captured in local `sales-harness` commit
+`a53aa79`, path `product/UI_UX_MAPPING_V2_REMAP_2026-09.md`, Git blob
+`443eb410193b8a624147419a53d4c2aa0597c1e6`.
+
+The complete report is also maintained in the access-controlled Google Doc
+tab linked from `knowledge/product/README.md`. The public derivative excludes
+customer-account details, operational counts and identifiers, and a
+security-sensitive engineering observation. It is an orientation map, not a
+replacement for the complete source.

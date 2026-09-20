@@ -1,3 +1,29 @@
+# Agent-findable design and product knowledge hub
+
+## Plan
+
+- [x] Add one root library map that routes brand story, brand documentation,
+  logos, teasers, motion, UI source projects, and product UI/UX mapping.
+- [x] Add an explicit motion index using the preserved Gleb directory names.
+- [x] Add a public-safe product UI/UX map with provenance to the restricted
+  complete report, without publishing customer or security-sensitive details.
+- [x] Link the new map from every agent entrypoint and the task router.
+- [x] Verify all new relative links, sensitive-content boundaries, changed
+  paths, and Git status.
+- [ ] Publish the bounded documentation change and verify the GitHub URLs.
+
+## Review
+
+Local verification passed: all 31 integrity-index entries match byte size and
+SHA-256; the manifest verifies; all relative links in 21 changed or new
+Markdown files resolve; the Gleb tree contains the indexed 36 video and 14
+motion-source/package files; the product source blob matches commit `a53aa79`;
+restricted markers are absent from the public product lane; and
+`git diff --check` passes. The Google Doc correctly remains access-controlled.
+GitHub publication and remote URL checks remain pending.
+
+---
+
 # Gleb source asset publication
 
 ## Plan

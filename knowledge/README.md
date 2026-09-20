@@ -1,9 +1,12 @@
 # Knowledge index
 
 Layer 1 routing file. It lists the operating documents and points to the
-evidence library; it adds no rules. Exact per-file state: `../STATUS.md` and
+evidence library; it adds no rules. Current workspace state:
+`../STATUS.md`. The historical proposed-core hashes are in
 `../LOCK_CANDIDATE_MANIFEST.md`. Task bundles: retrieve one row from
 [TASK_ROUTER.md](TASK_ROUTER.md) (do not preload it).
+
+Cross-family retrieval: [`../LIBRARY_MAP.md`](../LIBRARY_MAP.md).
 
 ## Layer 2: operating core
 
@@ -30,6 +33,13 @@ evidence library; it adds no rules. Exact per-file state: `../STATUS.md` and
 and are empty by design until Seven records decisions and a curator promotes an
 exact candidate. Lane rule: [messaging/README.md](messaging/README.md);
 promotion steps: `../LOCK_CANDIDATE_MANIFEST.md`.
+
+## Product UI/UX observations
+
+[`product/README.md`](product/README.md) routes to dated product-surface maps.
+These are observed evidence, not proposed or approved design canon. The public
+lane excludes customer-specific and security-sensitive details and points
+authorized colleagues to the restricted complete source.
 
 ## Layer 4: evidence library
 

@@ -2,6 +2,13 @@
 
 Date: 2026-08-19
 
+Historical snapshot notice (2026-09-20): the hashes, word counts, working-tree
+states, and selective-commit inventory below describe the 2026-08-19 lock
+candidate only. Later routing and asset-publication commits intentionally
+changed several governance files. Use `STATUS.md` for current workspace state
+and Git history for current bytes; use this manifest only to verify the
+unchanged proposed design and messaging candidates listed in section 1.
+
 State: `READY_FOR_FINAL_DECISIONS / NOT_LOCKED / NOTHING_APPROVED`
 
 This manifest prepares a future lock. It does not lock, approve, promote,

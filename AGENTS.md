@@ -5,8 +5,8 @@ Layer 1 of the routing hierarchy in `START_HERE.md`.
 
 ## Before starting
 
-1. Read `START_HERE.md`, this file, `STATUS.md`, and `knowledge/README.md`
-   (Claude Code also reads `CLAUDE.md`).
+1. Read `START_HERE.md`, this file, `STATUS.md`, `LIBRARY_MAP.md`, and
+   `knowledge/README.md` (Claude Code also reads `CLAUDE.md`).
 2. Retrieve only your task-type row from `knowledge/TASK_ROUTER.md` and read
    only that bundle. Do not preload the router or the evidence library.
 3. Open work by stating, in this order: task type; surface family; requested

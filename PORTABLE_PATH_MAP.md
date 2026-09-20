@@ -8,9 +8,10 @@ provenance. In this portable archive, use these relative replacements:
 | `/Users/sevenerhan/obenan-landing-page/DESIGN_PRINCIPLES_2026.md` | `reference/design-principles/DESIGN_PRINCIPLES_2026.md` |
 | `/Users/sevenerhan/obenan-landing-page/BRAND_SYSTEM.md` | `reference/design-principles/BRAND_SYSTEM.md` |
 | `/Users/sevenerhan/obenan-landing-page/BRAND_ASSET_LIBRARY.md` | `reference/design-principles/BRAND_ASSET_LIBRARY.md` |
-| `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/raw` | The FULL archive's `reference/brand-assets/original/` |
-| `/Users/sevenerhan/Documents/Obenan Gleb Branding Assets ` | The FULL archive's `reference/brand-assets/original/` |
-| Canonical logo paths in Seven's landing-page repo | `reference/brand-assets/quick-start/logos/` and their originals under `reference/brand-assets/original/Logo SVG/` |
+| `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/raw` | `reference/brand-assets/original/Gleb/` for the published Gleb source tree; the FULL release archive for material outside `Gleb/` |
+| `/Users/sevenerhan/Documents/Obenan Gleb Branding Assets /Gleb` | `reference/brand-assets/original/Gleb/` |
+| `/Users/sevenerhan/sales-harness/product/UI_UX_MAPPING_V2_REMAP_2026-09.md` | `knowledge/product/PRODUCT_UI_UX_MAPPING_2026-09_PUBLIC.md` for the public-safe orientation; access-controlled complete source linked from `knowledge/product/README.md` |
+| Canonical logo paths in Seven's landing-page repo | `reference/brand-assets/quick-start/logos/`; additional historical originals are in the FULL release archive |
 
 The Figma URL is external and remains valid as written:
 https://www.figma.com/design/H3KZZ7qkFhFQLcCxBGtw1j/Brand

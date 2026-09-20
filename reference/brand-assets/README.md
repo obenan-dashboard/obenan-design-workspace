@@ -15,6 +15,10 @@ individual source files under [`original/Gleb/`](original/Gleb/) or download
 the separately delivered FULL archive linked in
 [DISTRIBUTION.md](../../DISTRIBUTION.md).
 
+For motion designs, teasers, logo animation, social motion, product UI
+animation, After Effects projects, and ZIP source packages, use the stable
+[`MOTION_INDEX.md`](MOTION_INDEX.md).
+
 ## Usage
 
 Inspect before creating. Reuse approved assets before generating a new one.
