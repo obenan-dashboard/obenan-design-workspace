@@ -45,13 +45,16 @@ Figma remains live and may evolve after the date of this package.
 
 ## Product UI/UX mapping
 
-The public-safe September 2026 product orientation under `knowledge/product/`
-derives from the complete report captured in local `sales-harness` commit
-`a53aa79`, path `product/UI_UX_MAPPING_V2_REMAP_2026-09.md`, Git blob
-`443eb410193b8a624147419a53d4c2aa0597c1e6`.
+`knowledge/product/UI_UX_KNOWLEDGE_DOC.md` is the single repository-native
+product map. It derives from the unified source captured in local
+`sales-harness` commit `32c9003`, path
+`product/UI_UX_KNOWLEDGE_DOC.md`, Git blob
+`6d9d017a50451b81cb0df27919351c10f50f7528`.
 
-The complete report is also maintained in the access-controlled Google Doc
-tab linked from `knowledge/product/README.md`. The public derivative excludes
-customer-account details, operational counts and identifiers, and a
-security-sensitive engineering observation. It is an orientation map, not a
-replacement for the complete source.
+The repository edition keeps the unified information architecture, screen
+inventory, flows, interaction patterns, write-risk findings, UX audit, gaps,
+history, and source table. Because this repository is public, customer
+identity, account-specific identifiers and scale, internal infrastructure
+detail, and directly exploitable authentication detail are withheld. The
+immutable source commit is the authority for those restricted fields. There
+is no external-document dependency.

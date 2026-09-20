@@ -36,10 +36,10 @@ promotion steps: `../LOCK_CANDIDATE_MANIFEST.md`.
 
 ## Product UI/UX observations
 
-[`product/README.md`](product/README.md) routes to dated product-surface maps.
-These are observed evidence, not proposed or approved design canon. The public
-lane excludes customer-specific and security-sensitive details and points
-authorized colleagues to the restricted complete source.
+[`product/README.md`](product/README.md) routes to the single unified dated
+product-surface map. It is observed evidence, not proposed or approved design
+canon. The repository-native edition declares the limited customer,
+infrastructure, and security redactions required by this public repository.
 
 ## Layer 4: evidence library
 

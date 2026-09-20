@@ -8,12 +8,15 @@ Start with [`START_HERE.md`](START_HERE.md), then use
 Claude Code also reads `CLAUDE.md` automatically when the folder is opened as
 its working directory.
 
+The single unified product map is
+[`knowledge/product/UI_UX_KNOWLEDGE_DOC.md`](knowledge/product/UI_UX_KNOWLEDGE_DOC.md).
+
 This starter package includes the actual source Markdown files, original old
 logo variants, and both brand guideline PDFs. The separately delivered FULL
 archive contains the complete 382-file Gleb branding and motion library. This
 starter is portable and uses relative paths.
 
 The old logo is included as heritage/source reference and must not be revived
-on a current surface without an explicit design decision. Dated product maps
-are observed evidence, not an implementation contract or proof of current
-live behavior.
+on a current surface without an explicit design decision. The dated unified
+product map is observed evidence, not an implementation contract or proof of
+current live behavior.

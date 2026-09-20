@@ -1,8 +1,27 @@
 # Decisions Log
 
+## One unified repository-native product knowledge document
+
+Date: 2026-09-20
+
+Decision: Replace the orientation-only product-map derivative and external
+document dependency with `knowledge/product/UI_UX_KNOWLEDGE_DOC.md` as the
+single in-repository current-state map. Preserve the unified source's
+structure and findings; withhold only customer-identifying,
+account-confidential, infrastructure, and directly exploitable security
+detail required by the public repository boundary.
+
+Consequence: Colleagues and agents can retrieve the complete usable UI/UX
+mapping from one stable GitHub file. The immutable private source commit
+remains the authority for restricted fields, and the dated map remains
+observed evidence rather than approved design canon or current-live proof.
+
 ## One public navigation map, restricted detailed product evidence
 
 Date: 2026-09-20
+
+Status: Superseded the same day by "One unified repository-native product
+knowledge document" above.
 
 Decision: Add `LIBRARY_MAP.md` as the stable route to brand story, brand
 documentation, logos, teasers, motion, product UI source projects, and product

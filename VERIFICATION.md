@@ -9,11 +9,16 @@ Verified: 2026-09-20
   mapping, research, and agent handoff instructions.
 - `reference/brand-assets/MOTION_INDEX.md` maps the verified repository
   inventory of 36 video files and 14 editable or packaged motion-source files.
-- The complete product UI/UX report source is Git blob
-  `443eb410193b8a624147419a53d4c2aa0597c1e6` at local commit `a53aa79`.
-  Restricted customer, account, environment, count, identifier, and
-  authentication markers were scanned and are absent from the public product
-  lane.
+- The unified product UI/UX source is Git blob
+  `6d9d017a50451b81cb0df27919351c10f50f7528` at local commit `32c9003`.
+  Its 627 source lines and all section headings are represented in the
+  632-line repository edition; the five added lines are the public-boundary
+  notice and formatting added around declared redactions.
+  The repository-native edition preserves the unified mapping and declares
+  its limited public-repository redactions. Customer identity, exact account
+  scale and identifiers, internal host and endpoint detail, client-side key
+  names, and the directly exploitable authentication finding were scanned and
+  are absent.
 - The starter integrity set in `FILE_INDEX.tsv` and `MANIFEST.sha256` passes
   byte-size, SHA-256, and MIME-type verification.
 - `git diff --check` passes.

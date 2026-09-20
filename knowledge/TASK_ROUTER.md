@@ -38,8 +38,8 @@ in `../AGENTS.md`; DC section 8 supplies a proposed design-quality checklist.
   `research/messaging/2026-08-storybrand-luxury-refresh/`; LEDGER, DRIFT,
   PARITY the three files under `research/design/2026-08-unified-design-discipline/`
   (`EVIDENCE_LEDGER.md`, `DRIFT_REGISTER.md`, `FIGMA_CODE_PARITY_AUDIT.md`)
-- PM `knowledge/product/PRODUCT_UI_UX_MAPPING_2026-09_PUBLIC.md` (dated,
-  public-safe observed evidence; complete source is access-controlled)
+- PM `knowledge/product/UI_UX_KNOWLEDGE_DOC.md` (unified dated observed
+  evidence; public-repository redactions are declared in the file)
 
 ## Rows
 
@@ -47,7 +47,7 @@ in `../AGENTS.md`; DC section 8 supplies a proposed design-quality checklist.
 | --- | --- | --- | --- | --- | --- | --- |
 | Homepage or marketing copy | MC | AMG; MDR; BS (copy, CTA, FAQ rules); DC section 2 if layout is touched | R05, R06, R08 (locale), R01 (if February material is cited), REV | R02, R03, R04, R07 unless a claim needs them; all design research; Gleb archive | MDR DR-01 to DR-06; locked public chrome labels | PARTIAL: illustrative, noncanonical copy only; STOP for a capability verb without a claim record or a locked chrome label change |
 | Website visual and interaction design | DC | ADG sections 2 and 3; BS; BE; TCC | DRIFT, PARITY, LEDGER; DP Part IV | Messaging research; Gleb archive; Figma flow files | DDR DR-D01, DR-D05 to DR-D09, DR-D07; BE human gates; locked surfaces | PARTIAL with candidate tokens recorded; STOP for a locked-surface change without approval record or a non-approved identity asset |
-| Product or dashboard UX and UI | DC | PM; ADG sections 4 and 5; TCC sections 5 to 7; DP Parts III and V | Restricted complete UI/UX report when exact screen or write-risk detail matters; DRIFT D04, D09, D12, D13; PARITY; LEDGER section 5 | BS; messaging research; Gleb archive | Dated map requires current re-verification; DDR DR-D05, DR-D06, DR-D08, DR-D09, DR-D11, DR-D12 | PARTIAL; STOP for a collapsed or misrepresented claim state, or a safety or accessibility defect |
+| Product or dashboard UX and UI | DC | PM; ADG sections 4 and 5; TCC sections 5 to 7; DP Parts III and V | Immutable private source when restricted account or security detail is essential; DRIFT D04, D09, D12, D13; PARITY; LEDGER section 5 | BS; messaging research; Gleb archive | Dated map requires current re-verification; DDR DR-D05, DR-D06, DR-D08, DR-D09, DR-D11, DR-D12 | PARTIAL; STOP for a collapsed or misrepresented claim state, or a safety or accessibility defect |
 | Onboarding and conversion flows | DC; MC | ADG sections 3 and 4; AMG (free-value, demo, conversion); TCC (Field, Button, Progress) | PARITY (onboarding nodes); R07; R08 | R02, R03, R04; Gleb archive | DDR DR-D06, DR-D12; MDR DR-04, DR-05 | PARTIAL; STOP for a capability claim without a claim record |
 | Sales presentation or commercial collateral | MC | AMG (sales presentations); DC section 5 (presentation row); ADG section 7 | R04, R06, R07; REV section 5 | Design research; TCC | Presentation discipline under-evidenced; presentation spectrum UNRESOLVED (Gleb archive and current decks not inspected); MDR DR-04; testimonial and figure provenance | PARTIAL (interim floor: identity reuse, claim rules, verbatim customer voice); STOP for an unverified customer quote or metric, or a non-approved logo treatment |
 | Email and communication design | MC; DC | AMG (communication design); ADG section 8; TCC section 2.2 | R06 (service recovery); R08; LEDGER (locked email template facts) | PARITY; Gleb archive | Verification email is a locked surface in `origin/main`; DDR DR-D04 | PARTIAL; STOP for a locked template change without approval record |

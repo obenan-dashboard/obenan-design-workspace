@@ -1,3 +1,20 @@
+# Unified repository-native product UI/UX knowledge
+
+## Plan
+
+- [x] Import the unified product UI/UX knowledge document from immutable source commit `32c9003`.
+- [x] Remove the redundant orientation-only derivative and make the unified Markdown file the single in-repository product map.
+- [x] Redact only customer-identifying, account-confidential, and directly exploitable security detail required by this public repository's safety boundary.
+- [x] Update every agent route, portable path, provenance record, status, decision, verification record, and learning record.
+- [x] Rebuild the starter integrity index and manifest; verify links, source lineage, sensitive-content boundaries, and Git cleanliness.
+- [ ] Publish the bounded documentation change and verify the exact GitHub URLs.
+
+## Review
+
+Pending implementation and remote verification.
+
+---
+
 # Agent-findable design and product knowledge hub
 
 ## Plan
@@ -14,12 +31,12 @@
 
 ## Review
 
-Local verification passed: all 31 integrity-index entries match byte size and
-SHA-256; the manifest verifies; all relative links in 21 changed or new
-Markdown files resolve; the Gleb tree contains the indexed 36 video and 14
-motion-source/package files; the product source blob matches commit `a53aa79`;
-restricted markers are absent from the public product lane; and
-`git diff --check` passes. The Google Doc correctly remains access-controlled.
+Historical verification passed: all 31 integrity-index entries matched byte
+size and SHA-256; the manifest verified; all relative links in 21 changed or
+new Markdown files resolved; the Gleb tree contained the indexed 36 video and
+14 motion-source/package files; and `git diff --check` passed. The product-map
+publication model from this step was superseded by the unified
+repository-native document recorded above.
 Publication commit `82e9676a5a837a723a0ccd46fecb56451357fe80`
 reached GitHub `main`; the untruncated remote tree contains all four new hub
 files, and their GitHub pages returned HTTP 200.

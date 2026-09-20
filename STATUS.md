@@ -29,10 +29,12 @@ media tracked by Git LFS. This improves access, not approval for current use.
 - Inclusion is not approval to revive it on a current surface.
 - The Figma Brand file remains a live external design source.
 - Current production code and release evidence are outside this workspace.
-- The September 2026 product UI/UX map is dated observed evidence. Its
-  public-safe orientation is under `knowledge/product/`; the complete report
-  remains access-controlled because it contains customer and
-  security-sensitive observations.
+- The unified January-to-September 2026 product UI/UX knowledge document is
+  now repository-native at `knowledge/product/UI_UX_KNOWLEDGE_DOC.md`. It is
+  dated observed evidence, not a product contract. Only customer-identifying,
+  account-confidential, infrastructure, and directly exploitable security
+  fields are withheld from this public repository; their immutable source is
+  local commit `32c9003`.
 
 ## Active workstreams
 

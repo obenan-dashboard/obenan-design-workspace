@@ -13,7 +13,7 @@ and authority; use this map for retrieval.
 | Brand books and logo references | [`reference/brand-assets/quick-start/`](reference/brand-assets/quick-start/) | Branding PDFs and legacy logo references for orientation |
 | Motion designs and teasers | [`reference/brand-assets/MOTION_INDEX.md`](reference/brand-assets/MOTION_INDEX.md) | Direct routes to rendered videos, logo loops, social motion, UI motion, Lottie files, After Effects projects, and ZIP source packages |
 | Complete Gleb source library | [`reference/brand-assets/original/Gleb/`](reference/brand-assets/original/Gleb/) | Byte-preserving individual-file mirror of the original source tree |
-| Product UI/UX mapping | [`knowledge/product/README.md`](knowledge/product/README.md) | Dated dashboard map, status, safe public overview, and restricted-source provenance |
+| Product UI/UX mapping | [`knowledge/product/UI_UX_KNOWLEDGE_DOC.md`](knowledge/product/UI_UX_KNOWLEDGE_DOC.md) | One unified current-state dashboard map with declared public-repository redactions and immutable source provenance |
 | Design operating core | [`knowledge/design/README.md`](knowledge/design/README.md) | Proposed design core, applied guide, token/component contract, and pending decisions |
 | Research and evidence | [`research/README.md`](research/README.md) | Evidence index, provenance, limitations, audits, and disagreement records |
 | Reusable agent handoff | [`templates/AGENT_ROTATION_PROMPT.md`](templates/AGENT_ROTATION_PROMPT.md) | Full instruction for a new design or messaging agent |

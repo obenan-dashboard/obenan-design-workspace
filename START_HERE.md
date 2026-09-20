@@ -39,7 +39,7 @@ Use [`LIBRARY_MAP.md`](LIBRARY_MAP.md) for the complete retrieval map.
 | Logos and brand books | [`reference/brand-assets/README.md`](reference/brand-assets/README.md) |
 | Brand story and messaging | [`knowledge/messaging/README.md`](knowledge/messaging/README.md) |
 | Brand and design documentation | [`reference/design-principles/`](reference/design-principles/) |
-| Product UI/UX mapping | [`knowledge/product/README.md`](knowledge/product/README.md) |
+| Product UI/UX mapping | [`knowledge/product/UI_UX_KNOWLEDGE_DOC.md`](knowledge/product/UI_UX_KNOWLEDGE_DOC.md) |
 
 ## Task types
 
