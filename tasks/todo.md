@@ -11,8 +11,9 @@
 - [x] Add an agent-ready validation brief and exact result template for
   DR-D05, DR-D06, and DR-D08.
 - [x] Rebuild integrity records and run all local workspace gates.
-- [ ] Ship through a reviewed pull request.
-- [ ] Link the shipped ownership decision and validation work from issue #5;
+- [x] Publish the verified change as pull request #8.
+- [ ] Merge pull request #8 after its remote gates pass.
+- [x] Link the ownership decision and validation work from issue #5;
   keep #5 open until validated choices are ratified and promoted.
 
 ## Test-first evidence
@@ -34,7 +35,9 @@ The full suite has 21 passing behavioral tests; both acceptance-traceability
 checks pass (8 repository criteria and 4 ownership-promotion criteria); the
 aggregate workspace gate passes with zero errors and zero freshness warnings;
 Actionlint, shell syntax, JavaScript syntax, diff whitespace, and the scoped
-secret-pattern scan pass. Remote publication and issue linkage remain pending.
+secret-pattern scan pass. Pull request #8 is open, validation issue #9 is
+assigned to `seven-obenan`, and issue #5 links the work while remaining open.
+Merge and exact-main verification remain pending.
 
 ---
 

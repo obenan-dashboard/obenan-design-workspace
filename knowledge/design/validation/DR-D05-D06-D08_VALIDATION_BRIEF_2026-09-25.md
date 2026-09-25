@@ -6,6 +6,9 @@ Owner: `seven-obenan`
 
 Roles: design owner and frontend lead
 
+Tracking issue:
+[`#9`](https://github.com/obenan-dashboard/obenan-design-workspace/issues/9)
+
 Result file:
 [`DR-D05-D06-D08_VALIDATION_RESULT.md`](DR-D05-D06-D08_VALIDATION_RESULT.md)
 
