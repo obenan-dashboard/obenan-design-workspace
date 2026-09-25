@@ -1,3 +1,41 @@
+# Marcin repository-quality issues #2–#6
+
+## Plan
+
+- [x] Specify acceptance criteria and commit failing behavioral tests before
+  implementing the repository gates.
+- [ ] Add executable relative-link, portability, integrity, and dated-evidence
+  freshness checks plus one aggregate command and GitHub Actions workflow.
+- [ ] Rewrite tracked Markdown links and local-path references so a fresh clone
+  is portable while preserving original-source provenance in the path map and
+  Git history.
+- [ ] Add section-level product-map routing so agents do not preload the full
+  61 KB map for every product task.
+- [ ] Add a prioritized decision queue and review checkpoints without
+  misrepresenting unresolved DRs as approved.
+- [ ] Add freshness headers to the product map and the three dated design
+  audits, with non-blocking warnings after their review dates.
+- [ ] Rebuild integrity records, run the full behavioral matrix, audit the
+  acceptance criteria, and publish through a GitHub pull request.
+- [ ] Close only issues fully resolved by the implementation; keep the
+  approval issue open until Seven records actual design and messaging
+  decisions.
+
+## Test-first evidence
+
+RED confirmed against commit `0b400aa48715d0961f1ede1036c9a368a3c544e0`
+with `node --test tests/*.test.mjs`: 0 passed, 5 failed. Failures name the
+missing gate module and aggregate command, absent section-level product route,
+absent decision queue, and corpus portability gap. Exit code 1. The tests were
+committed before implementation.
+
+## Review
+
+Pending implementation, independent gate audit, PR, merge, and remote
+verification.
+
+---
+
 # Common UI implementation-source bridge
 
 ## Plan
