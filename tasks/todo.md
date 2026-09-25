@@ -12,7 +12,7 @@
   DR-D05, DR-D06, and DR-D08.
 - [x] Rebuild integrity records and run all local workspace gates.
 - [x] Publish the verified change as pull request #8.
-- [ ] Merge pull request #8 after its remote gates pass.
+- [x] Merge pull request #8 after its remote gates pass.
 - [x] Link the ownership decision and validation work from issue #5;
   keep #5 open until validated choices are ratified and promoted.
 
@@ -37,7 +37,9 @@ aggregate workspace gate passes with zero errors and zero freshness warnings;
 Actionlint, shell syntax, JavaScript syntax, diff whitespace, and the scoped
 secret-pattern scan pass. Pull request #8 is open, validation issue #9 is
 assigned to `seven-obenan`, and issue #5 links the work while remaining open.
-Merge and exact-main verification remain pending.
+GitHub Workspace gates and CodeQL passed before the final merge bookkeeping;
+the merge is authorized only after the refreshed checks pass. Exact-main
+verification follows the merge.
 
 ---
 
