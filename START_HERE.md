@@ -25,8 +25,9 @@ publish, merge, or deploy.
 | 4. Evidence and research | On the retrieval triggers in `AGENTS.md` | `research/README.md` (evidence index) and everything it maps |
 
 Cores and guides are PROPOSED, not approved, not canonical, until Seven
-records a decision; `knowledge/*/approved/` is empty until then. `STATUS.md`
-holds current state; `LOCK_CANDIDATE_MANIFEST.md` preserves the historical
+records a decision. `knowledge/design/approved/` contains the narrow DR-D11
+role assignment; it does not promote any visual rule. `STATUS.md` holds
+current state; `LOCK_CANDIDATE_MANIFEST.md` preserves the historical
 2026-08-19 candidate hashes.
 
 ## Quick find

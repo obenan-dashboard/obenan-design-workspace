@@ -70,8 +70,9 @@ Consequence: one library to search; duplicates must be reconciled (two
 buttons, two checkboxes, two inputs); the contract's Figma naming rules apply
 to one file.
 
-Owner: Seven names the design owner after the maintainership of each file is
-confirmed; no candidate is inferred here. That named owner then decides.
+Owner: design owner `seven-obenan`, as approved in DR-D11. That owner decides
+after the maintainership of each file is confirmed; no file maintainer is
+inferred here.
 
 Evidence still needed: who maintains each file today (from Figma file
 history or the team, not from cover art); the Design Kit's full page list and
@@ -138,8 +139,8 @@ or heavier weights.
 
 The five requests below are proposed directions, not founder-ready final
 values. Each needs rendered visual comparisons, contrast testing where color
-is involved, and validation by the design owner whom Seven names after
-maintainership is confirmed. Seven ratifies after that validation, not before.
+is involved, and validation by design owner `seven-obenan`. Seven ratifies
+after that validation, not before.
 Numbers in these requests are candidates taken from named sources so the
 comparison has something to compare; they are not defaults to implement.
 
@@ -168,7 +169,7 @@ white (visually near-identical on white), the website keeps its current
 values, the Figma `Tokens` values are updated to match; contrast tests decide
 the text variants.
 
-Owner: the design owner Seven names validates; Seven ratifies after validation.
+Owner: design owner `seven-obenan` validates; Seven ratifies after validation.
 
 Evidence still needed before any value is final: contrast results (AA text and UI) for every proposed pairing on every allowed canvas; rendered side-by-side comparisons at 375 and 1440; a
 rendered comparison of `#242424` versus `#0F0F14` text at body sizes on the
@@ -192,7 +193,7 @@ Consequence: onboarding and account fields become flat white on canvas;
 Figma `input_field` and the `Shadow 1` effect are revised; the dashboard
 navbar loses its blur.
 
-Owner: the design owner Seven names validates; Seven ratifies after validation.
+Owner: design owner `seven-obenan` validates; Seven ratifies after validation.
 
 Evidence still needed: a rendered before and after of the Create Account
 frame without blur; confirmation from product design that the blur carried no
@@ -240,7 +241,7 @@ surface families choose roles, not numbers.
 Consequence: Figma fields move from 20 to 12 or 16 (a visible but small
 change); NextUI radius aliases map to roles.
 
-Owner: the design owner Seven names validates and decides.
+Owner: design owner `seven-obenan` validates and decides.
 
 Evidence still needed: a side-by-side of field radius 12/16/20 on the product
 canvas at 375 and 1440.
@@ -258,7 +259,8 @@ and wrapped by a single `Icon` component; seed it from the existing Figma
 
 Consequence: migration by page family; visible consistency in the product.
 
-Owner: the design owner Seven names, with the frontend lead, validates and decides.
+Owner: `seven-obenan`, holding both design-owner and frontend-lead roles,
+validates and decides.
 
 Evidence still needed: inventory of glyphs actually used (an automated
 import scan), and the Figma `icon` set's coverage.
@@ -285,6 +287,13 @@ page-listing limit is a connector limit, not a file structure.
 
 ## DR-D11: Token and component ownership in code
 
+Resolution: the role assignment is approved in
+[`../approved/DR-D11_CODE_OWNERSHIP.md`](../approved/DR-D11_CODE_OWNERSHIP.md).
+The design owner and frontend lead are both `seven-obenan`. The package
+allocation below remains recommended guidance pending current technical
+verification; no visual or implementation choice was promoted with the role
+assignment.
+
 Conflict: `obenan-theme` is a NextUI plugin config with value names;
 `obenan-ui` is on React 18 and NextUI while the dashboard has begun HeroUI (2
 files) and the website runs React 19; the website's strongest tokens are
@@ -301,7 +310,7 @@ aliases keep the 389 import sites working.
 Consequence: a named reviewer for every token and component change; a codemod
 budget for the dashboard.
 
-Owner: Seven names the frontend lead and the design owner.
+Owner: frontend lead and design owner `seven-obenan`, as approved in DR-D11.
 
 Evidence still needed: the frontend lead's view on the HeroUI migration
 timeline and on React 18/19 support in obenan-ui.
@@ -326,7 +335,7 @@ whichever shows claim states most often) to land `StateMark`, `Ledger`, and
 Consequence: the contract gets tested on a journey, a flagship page, and a
 dense screen before anything else migrates.
 
-Owner: Seven chooses; the frontend lead sequences.
+Owner: Seven chooses; frontend lead `seven-obenan` sequences.
 
 Evidence still needed: which dashboard page has the highest daily use and the
 most "waiting for approval" states; confirmation that ObiGEO primitives can
@@ -340,10 +349,10 @@ be reused under the whole-brain license and build.
 | --- | --- | --- | --- | --- |
 | 1 | DR-D03 | Source precedence | Contract table; approved governance defines direction, verified code defines compatibility reality at the inspected reference, neither proves deployment | Every later answer needs a ranked home |
 | 2 | DR-D01 | Wave and wordmark status (bytes verified; authority and usage unresolved) | Current identity, reuse-only, one asset path per app | Identity gates every surface and the token family |
-| 3 | DR-D02 | Canonical Figma file and library; meaning of BETA; naming of the design owner after maintainership is confirmed | Design Kit library canon; V1 file subscribes; BETA = evolving | Unblocks every design-owner validation below |
+| 3 | DR-D02 | Canonical Figma file and library; meaning of BETA | Design Kit library canon; V1 file subscribes; BETA = evolving | Unblocks every design-owner validation below; DR-D11 separately names `seven-obenan` as design owner |
 | 4 | DR-D04 | Helvetica Neue licensing and fallback | Keep, license, bundle Light/Regular, one loader, documented fallback | Typography is in every surface; license is a release blocker |
 | 5 | DR-D07 | Spectrum allowance policy by surface family | Logo everywhere; one brand moment on website pages and onboarding welcome; nowhere else in product, free experiences, executive views, or reports (rendered applications validated by the design owner); presentation and sales-deck usage UNRESOLVED pending the Gleb archive and current-deck inspection | Policy must exist before values are tuned |
-| 6 | DR-D11 | Code ownership (named frontend lead, named design owner) | theme = tokens (joint), obenan-ui = components (React 18), website local on React 19 | Names the people who validate DR-D05 to DR-D09 |
+| 6 | DR-D11 | Code ownership | Owner assignment approved: `seven-obenan` holds both roles; package allocation still requires current technical verification | Names the person who validates DR-D05 to DR-D09 |
 | 7 | DR-D10 | Figma plan or workflow for parity | Path A if affordable, else Path B | Budget decision; needs DR-D02 first |
 | 8 | DR-D12 | First reference surfaces | Onboarding journey, homepage tokens, one product ledger | Sequenced after owners exist |
 

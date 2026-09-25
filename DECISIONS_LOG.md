@@ -1,5 +1,21 @@
 # Decisions Log
 
+## DR-D11 role assignment
+
+Date: 2026-09-25
+
+Decision: `seven-obenan` is both the design owner and frontend lead for the
+design-system decision process. This approves the role assignment only. The
+recommended token/component package boundary remains subject to current
+technical verification, and all visual decisions still require their named
+evidence and separate ratification.
+
+Consequence: DR-D05, DR-D06, DR-D08, and DR-D09 now have a named validator;
+the missing-owner blocker is removed. The combined role does not create an
+independent reviewer and does not waive accessibility, test-first, code-owner,
+or release gates. Exact scope and remaining unresolved items are in
+`knowledge/design/approved/DR-D11_CODE_OWNERSHIP.md`.
+
 ## Dependency-free repository gates and explicit evidence ageing
 
 Date: 2026-09-25

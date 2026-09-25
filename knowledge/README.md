@@ -13,9 +13,9 @@ Cross-family retrieval: [`../LIBRARY_MAP.md`](../LIBRARY_MAP.md).
 | File | What it is | Status |
 | --- | --- | --- |
 | [messaging/proposed/MESSAGING_CORE_v2.md](messaging/proposed/MESSAGING_CORE_v2.md) | North star, customer tension, story roles, voice, language families, claim-state ladder, fast tests | PROPOSED; DR-01 to DR-06 open |
-| [design/proposed/DESIGN_CORE_v1.md](design/proposed/DESIGN_CORE_v1.md) | North star, conditional arrival test, seven principles, constants, surface matrix, grammar, pattern classes, proposed design-quality checklist | PROPOSED; DR-D01 to DR-D12 open |
+| [design/proposed/DESIGN_CORE_v1.md](design/proposed/DESIGN_CORE_v1.md) | North star, conditional arrival test, seven principles, constants, surface matrix, grammar, pattern classes, proposed design-quality checklist | PROPOSED; DR-D11 role assignment approved, other DR-D* items remain open |
 | [messaging/proposed/DECISION_REQUESTS_v2.md](messaging/proposed/DECISION_REQUESTS_v2.md) | Messaging decisions and promotion sequence | FOUNDER DECISIONS REQUIRED |
-| [design/proposed/DECISION_REQUESTS_v1.md](design/proposed/DECISION_REQUESTS_v1.md) | Design decisions (founder) and validations (design owner, technical) | AWAITING DECISION |
+| [design/proposed/DECISION_REQUESTS_v1.md](design/proposed/DECISION_REQUESTS_v1.md) | Design decisions (founder) and validations (design owner, technical) | DR-D11 role assignment approved; remaining decisions awaiting evidence or decision |
 
 ## Layer 3: task-specific application
 
@@ -29,9 +29,9 @@ Cross-family retrieval: [`../LIBRARY_MAP.md`](../LIBRARY_MAP.md).
 
 ## Approved knowledge
 
-`messaging/approved/` and `design/approved/` hold founder-approved canon only
-and are empty by design until Seven records decisions and a curator promotes an
-exact candidate. Lane rule: [messaging/README.md](messaging/README.md);
+`messaging/approved/` and `design/approved/` hold founder-approved canon only.
+The design lane now contains the bounded DR-D11 ownership record; it does not
+approve visual values. Lane rule: [messaging/README.md](messaging/README.md);
 promotion steps: `../LOCK_CANDIDATE_MANIFEST.md`.
 
 ## Product UI/UX observations

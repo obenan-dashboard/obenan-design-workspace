@@ -8,9 +8,11 @@ repeated here.
 - `proposed/`: the Design Core, the Applied Design Guide, the Token and
   Component Contract, and the design decision requests, all awaiting Seven's
   review.
-- `approved/`: empty by design until a decision is recorded and a curator
-  promotes an exact candidate with provenance (steps:
-  [../../LOCK_CANDIDATE_MANIFEST.md](../../LOCK_CANDIDATE_MANIFEST.md)).
+- `approved/`: exact founder-approved scopes with provenance. DR-D11 currently
+  approves only the design-owner and frontend-lead assignments; all visual
+  values remain unresolved.
+- `validation/`: assigned evidence work and result files. Completing a result
+  supports a later decision but never promotes itself.
 
 Evidence for every proposed design rule is indexed in
 [../../research/README.md](../../research/README.md).

@@ -24,7 +24,7 @@ named owner who can approve a change to it.
 | --- | --- | --- | --- | --- |
 | 1 | Founder decisions recorded in `DECISIONS_LOG.md` and `DECISION_REQUESTS_v1.md` resolutions | Identity, typeface, ink, spectrum allowance, canon files | Seven | Open items listed in the decision requests |
 | 2 | Brand book (`Obenan-Branding-Guidelines.pdf`) and the logo SVG reused from the approved source path | Logo form, palette families, typeface family | Seven with the original brand stakeholders | Brand book: current identity reference. Logo SVG: exact asset bytes source-verified (workspace `legacy-logo-{dark,light}.svg` = `origin/main` `obenan-logo-{dark,light}.svg`, 12-stop gradient); current identity authority unresolved under DR-D01; permitted spectrum usage unresolved under DR-D07; logo reuse and no-redrawing rule is an inherited constraint (workspace `AGENTS.md`, BRAND_ASSET_LIBRARY) |
-| 3 | `DESIGN_CORE_v1.md` (once approved) | Principles, grammar, allowances, preflight | Seven, curated by a design owner whom Seven names once maintainership is confirmed | Proposed |
+| 3 | `DESIGN_CORE_v1.md` (once approved) | Principles, grammar, allowances, preflight | Seven, curated by design owner `seven-obenan` | Proposed |
 | 4 | Token source of truth: one semantic token file (proposed location `packages/obenan-theme/tokens/*.json`) published to Figma variables and to CSS | Every color, type, space, radius, elevation, motion, focus value | Design owner plus frontend lead, jointly | Does not exist; values are scattered (`EVIDENCE_LEDGER.md` section 5) |
 | 5 | Component contract (this document section 5) implemented in `obenan-ui` and in the canonical Figma library | Component names, variants, states, token dependencies | Frontend lead (code), design owner (Figma) | Partially: 4 Storybook stories; Figma library with duplicates |
 | 6 | `BRAND_SYSTEM.md`, `BRAND_EMOTION_WEBSITE_SPEC` | Website composition, page families, admission rules | Website lead | Current and draft respectively |
@@ -198,10 +198,10 @@ migration step that removes them.
 | `Identity` | 14 logo files | `mark`, `lockup`; `light`, `dark` | static; animated only from approved Lottie |
 | `Figure` (imagery) | `OmniImage`, `CustomImage`, `LandingImage` | `photo`, `product-proof`, `decorative` | responsive sizes, focal point, caption, credit, alt policy (decorative hidden) |
 
-Owner for every row until DR-D11 names individuals: the frontend lead for the
-code implementation in `obenan-ui` (React 18) and any website-local twin
-(React 19), the design owner for the Figma component, both jointly for the
-token dependencies. Compatibility path for every row: the "Replaces" column
+DR-D11 assigns both the frontend-lead and design-owner roles to
+`seven-obenan`: that identity owns the code implementation in `obenan-ui`
+(React 18), any website-local twin (React 19), the Figma component, and the
+joint token dependencies. Compatibility path for every row: the "Replaces" column
 keeps working as a deprecated alias until the migration step that removes it
 (section 10), and no caller is changed by hand when a codemod can do it.
 

@@ -4,14 +4,14 @@
 
 - [x] Record Seven's exact owner assignment as acceptance criteria and add
   failing repository-contract tests before promotion.
-- [ ] Promote only DR-D11 ownership into approved design knowledge with date,
+- [x] Promote only DR-D11 ownership into approved design knowledge with date,
   provenance, scope, and explicit non-approvals.
-- [ ] Remove DR-D11 from the unresolved queue and make DR-D05 the next P0
+- [x] Remove DR-D11 from the unresolved queue and make DR-D05 the next P0
   decision without changing any visual value.
-- [ ] Add an agent-ready validation brief and exact result template for
+- [x] Add an agent-ready validation brief and exact result template for
   DR-D05, DR-D06, and DR-D08.
-- [ ] Rebuild integrity records, run all workspace gates, and ship through a
-  reviewed pull request.
+- [x] Rebuild integrity records and run all local workspace gates.
+- [ ] Ship through a reviewed pull request.
 - [ ] Link the shipped ownership decision and validation work from issue #5;
   keep #5 open until validated choices are ratified and promoted.
 
@@ -26,7 +26,15 @@ result contract.
 
 ## Review
 
-Pending implementation and remote verification.
+The test-first commit `9e3fc7a` preserves the RED baseline: 0 passed, 4
+failed. The implementation promotes only the two DR-D11 role assignments,
+names `seven-obenan` throughout the current-state records, advances DR-D05 to
+P0, and adds one no-implementation validation brief plus one result file.
+The full suite has 21 passing behavioral tests; both acceptance-traceability
+checks pass (8 repository criteria and 4 ownership-promotion criteria); the
+aggregate workspace gate passes with zero errors and zero freshness warnings;
+Actionlint, shell syntax, JavaScript syntax, diff whitespace, and the scoped
+secret-pattern scan pass. Remote publication and issue linkage remain pending.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: DR-D11 ownership promotion and validation handoff
-status: in-progress
+status: complete
 owner: seven-obenan
 date: 2026-09-25
 issue: 5
