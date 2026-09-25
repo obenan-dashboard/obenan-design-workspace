@@ -14,6 +14,10 @@ Layer 1 of the routing hierarchy in `START_HERE.md`.
    actions); selected reading bundle; known unresolved gates.
 4. Inspect the actual quick-start assets instead of guessing from filenames.
    Use the paired FULL archive when deeper source or motion assets are needed.
+5. For product/dashboard frontend or component implementation, read
+   `knowledge/implementation/README.md`, then verify the consuming app's
+   installed Common UI version and the relevant current public export before
+   introducing a local component or variant.
 
 ## Design contract
 
@@ -25,6 +29,8 @@ Layer 1 of the routing hierarchy in `START_HERE.md`.
   recolor the logo; reuse approved assets and components before new variants.
 - Product UI stays restrained: greyscale carries, accent has a specific job,
   one visual purpose per section, one dominant action, details on demand.
+- Product/dashboard implementation reuses supported Common UI exports before
+  local variants. Internal `src/*` files and assets are not public contracts.
 - Human first, product proven. The merchant is the hero; Obenan is the guide.
 - Motion clarifies state or causality, respects reduced motion, and never hides
   essential content.
@@ -111,6 +117,11 @@ Stop and do not implement while any of these is unresolved:
 6. essential product truth would be misrepresented (claim state, custody, or
    what Obenan does and does not do);
 7. a second writer holds the same mutable surface.
+
+For Common UI specifically, unavailable private-source access is PARTIAL for
+design and planning. It is a stop before creating or choosing a replacement
+component unless the relevant public contract can be verified from the
+consuming repository's installed package.
 
 Within customer-visible design work, apply the hard-stop conditions defined in
 this AGENTS.md together with all higher-level user, safety, authorization and

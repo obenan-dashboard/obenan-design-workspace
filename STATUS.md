@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-09-20
+Last updated: 2026-09-25
 
 ## Workspace state
 
@@ -29,6 +29,12 @@ media tracked by Git LFS. This improves access, not approval for current use.
 - Inclusion is not approval to revive it on a current surface.
 - The Figma Brand file remains a live external design source.
 - Current production code and release evidence are outside this workspace.
+- Product/dashboard frontend implementation is routed through
+  `knowledge/implementation/README.md` to the private
+  `@obenan-dashboard/common-ui` package. The verified 2026-09-25 snapshot is
+  version `0.22.0` at source revision `0688b9110a9e453aa1358dd3703afe2d42f718a4`;
+  agents must re-check current metadata and exports before implementation.
+  No private code, assets, or credentials are copied into this repository.
 - The unified January-to-September 2026 product UI/UX knowledge document is
   now repository-native at `knowledge/product/UI_UX_KNOWLEDGE_DOC.md`. It is
   dated observed evidence, not a product contract. Only customer-identifying,
@@ -93,3 +99,5 @@ media tracked by Git LFS. This improves access, not approval for current use.
   approval.
 - Any production implementation must re-prove current repo ownership,
   collisions, tests, and release authority.
+- A frontend agent must verify the relevant supported Common UI contract
+  before creating or choosing a replacement component.

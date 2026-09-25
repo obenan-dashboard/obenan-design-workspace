@@ -27,6 +27,9 @@ An agent succeeds when it can identify:
   gates
 - the direct route to brand story, brand documentation, logos, teasers,
   motion projects, and product UI/UX mapping
+- which repository defines product intent and flows, which private package
+  defines reusable frontend implementation contracts, and how to verify its
+  current supported exports without copying private source or credentials
 - the fact that this workspace is not release authority
 
 ## Design quality

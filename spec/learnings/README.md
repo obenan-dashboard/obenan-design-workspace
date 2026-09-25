@@ -2,4 +2,4 @@
 
 | Topic | File | Last Updated | Summary |
 | --- | --- | --- | --- |
-| Repository-native knowledge | [architecture-repository-native-knowledge.md](architecture-repository-native-knowledge.md) | 2026-09-20 | Publish the actual unified artifact in the repository and keep external documents or derivatives from becoming competing sources of truth |
+| Repository-native knowledge | [architecture-repository-native-knowledge.md](architecture-repository-native-knowledge.md) | 2026-09-25 | Publish owned knowledge in-repository; link private implementation authority with a dated, credential-safe bridge instead of duplicating it |

@@ -58,3 +58,23 @@ identity, account-specific identifiers and scale, internal infrastructure
 detail, and directly exploitable authentication detail are withheld. The
 immutable source commit is the authority for those restricted fields. There
 is no external-document dependency.
+
+## Shared frontend implementation source
+
+`knowledge/implementation/README.md` is a routing reference to the private
+Common UI package; it contains no copied private source or assets. The source
+repository is:
+
+https://github.com/obenan-dashboard/obenan-js-commons/tree/main/packages/common-ui
+
+On 2026-09-25, the package metadata, public export barrels, GitHub Packages
+registry, and `main` revision were inspected through authorized GitHub access.
+They identified `@obenan-dashboard/common-ui` version `0.22.0`, published
+2026-09-22, at revision
+`0688b9110a9e453aa1358dd3703afe2d42f718a4`. The bridge records that dated
+snapshot and links to live package metadata, exports, cookbook, and changelog;
+those live sources must be re-verified before implementation.
+
+The implementation repository remains private and GitHub Packages access is
+restricted. Credentials are neither source material nor documentation and
+must never be copied into this public workspace.

@@ -41,6 +41,15 @@ product-surface map. It is observed evidence, not proposed or approved design
 canon. The repository-native edition declares the limited customer,
 infrastructure, and security redactions required by this public repository.
 
+## Frontend implementation source
+
+[`implementation/README.md`](implementation/README.md) connects product and
+design intent to the private `@obenan-dashboard/common-ui` package. Frontend
+agents must use that bridge to verify supported components, tokens, exports,
+examples, and package state before introducing a local component or variant.
+The bridge copies no private code and grants no implementation or release
+authority.
+
 ## Layer 4: evidence library
 
 Retrieve through [../research/README.md](../research/README.md), which maps

@@ -15,6 +15,10 @@ return the preflight in `AGENTS.md` before changing customer-visible work.
 Retrieve deep research through `research/README.md` on the triggers in
 `AGENTS.md`.
 
+For product/dashboard frontend or component work, also read
+`knowledge/implementation/README.md` and verify the current private Common UI
+package contract before creating or replacing a component.
+
 This workspace is portable design context. It is not the production codebase
 and grants no permission to publish, merge, deploy, or revive a legacy
 identity treatment.

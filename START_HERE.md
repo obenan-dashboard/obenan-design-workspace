@@ -40,6 +40,7 @@ Use [`LIBRARY_MAP.md`](LIBRARY_MAP.md) for the complete retrieval map.
 | Brand story and messaging | [`knowledge/messaging/README.md`](knowledge/messaging/README.md) |
 | Brand and design documentation | [`reference/design-principles/`](reference/design-principles/) |
 | Product UI/UX mapping | [`knowledge/product/UI_UX_KNOWLEDGE_DOC.md`](knowledge/product/UI_UX_KNOWLEDGE_DOC.md) |
+| Frontend components and implementation contracts | [`knowledge/implementation/README.md`](knowledge/implementation/README.md) |
 
 ## Task types
 
@@ -82,6 +83,10 @@ register and its gates for hospitality imagery. Code authority follows the
 rule stated in `AGENTS.md`: verified code binds implementation reality at the
 inspected Git reference, never design intent, brand direction, deployment, or
 live state. Production code and release evidence are not bundled here.
+For product/dashboard frontend work, `knowledge/implementation/README.md`
+routes authenticated agents to the private Common UI package. Use this
+workspace for intent and flows, Common UI for shared implementation contracts,
+and the consuming application for tests and release authority.
 Exploratory frames, legacy assets, local branches, agent output, and previews
 are not canonical by themselves.
 

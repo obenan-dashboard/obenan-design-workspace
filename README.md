@@ -10,6 +10,9 @@ its working directory.
 
 The single unified product map is
 [`knowledge/product/UI_UX_KNOWLEDGE_DOC.md`](knowledge/product/UI_UX_KNOWLEDGE_DOC.md).
+Frontend agents should then use
+[`knowledge/implementation/README.md`](knowledge/implementation/README.md) to
+verify the private Common UI package before creating or replacing components.
 
 This starter package includes the actual source Markdown files, original old
 logo variants, and both brand guideline PDFs. The separately delivered FULL

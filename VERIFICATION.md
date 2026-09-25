@@ -1,12 +1,22 @@
 # Workspace Verification
 
-Verified: 2026-09-20
+Verified: 2026-09-25
 
 - All relative Markdown links in the changed and new agent-entry, library,
   motion, and product-map files resolve locally.
 - `LIBRARY_MAP.md` routes directly to brand story, brand documentation,
   logos, motion and teasers, editable product UI motion, product UI/UX
-  mapping, research, and agent handoff instructions.
+  mapping, the frontend implementation source, research, and agent handoff
+  instructions.
+- The private Common UI package was inspected through authenticated GitHub
+  access. `main` resolved to
+  `0688b9110a9e453aa1358dd3703afe2d42f718a4`; `package.json` and the GitHub
+  Packages registry both reported `@obenan-dashboard/common-ui` version
+  `0.22.0`; its export map exposed `.`, `./operator`, `./operator/charts`,
+  `./operator/data-tck`, `./operator/tokens.css`, and `./theme`. The bridge
+  links to the live README, metadata, public export barrels, cookbook, and
+  changelog, and explicitly excludes private code, internal assets, and
+  credentials from this public repository.
 - `reference/brand-assets/MOTION_INDEX.md` maps the verified repository
   inventory of 36 video files and 14 editable or packaged motion-source files.
 - The unified product UI/UX source is Git blob

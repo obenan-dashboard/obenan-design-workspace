@@ -1,3 +1,34 @@
+# Common UI implementation-source bridge
+
+## Plan
+
+- [x] Add one agent-readable bridge from design intent and product flows to the
+  private Common UI implementation source, without copying private code or
+  assets into this public repository.
+- [x] Route frontend and component tasks through the bridge from every relevant
+  agent entrypoint and task-router row.
+- [x] Record the verified Common UI package version, source revision, public
+  export boundaries, access boundary, provenance, and durable decision.
+- [x] Rebuild the starter integrity index and manifest; verify links, secrets,
+  changed paths, package facts, and Git cleanliness.
+- [ ] Publish the bounded documentation change to GitHub `main` and verify the
+  exact remote files.
+
+## Review
+
+The public design workspace now owns one explicit implementation-source bridge
+while the private Common UI repository remains the implementation authority.
+All relevant root and Claude Code entrypoints, router rows, provenance, status,
+decision, benchmark, verification, and learning records point to that bridge.
+The live checks confirmed Common UI `0.22.0`, source revision `0688b9110a9e`,
+the six supported export subpaths, public/private repository visibility, and
+all six referenced private files. All 17 changed/new Markdown files have valid
+relative links; the secret-pattern scan, `git diff --check`, all 34 indexed
+files, and the 35-entry integrity manifest pass. Publication verification is
+pending.
+
+---
+
 # Unified repository-native product UI/UX knowledge
 
 ## Plan

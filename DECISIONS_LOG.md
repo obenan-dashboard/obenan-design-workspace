@@ -1,5 +1,24 @@
 # Decisions Log
 
+## Link to Common UI; do not duplicate it
+
+Date: 2026-09-25
+
+Decision: Use this public workspace as the source for product intent, UI/UX
+flows, wording, brand context, and evidence. Route product/dashboard frontend
+agents through `knowledge/implementation/README.md` to the private
+`@obenan-dashboard/common-ui` package for current supported components,
+tokens, examples, tests, and public exports. Link to that implementation
+source and record a dated verification snapshot; do not copy its private code,
+assets, or credentials into this repository.
+
+Consequence: A zero-context agent can determine both what the experience must
+do and where the shared implementation contract lives. The two repositories
+remain non-competing sources: the design workspace does not become a component
+library, Common UI access does not grant release authority, and a new local
+component cannot be justified without first checking the relevant Common UI
+contract.
+
 ## One unified repository-native product knowledge document
 
 Date: 2026-09-20
