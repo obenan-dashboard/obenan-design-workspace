@@ -20,6 +20,8 @@ jobs:
       - name: Behavioral tests
         run: node --test tests/*.test.mjs
       - name: Acceptance-criterion traceability
-        run: bash scripts/verify-ac-tests.sh --spec spec/features/repository-knowledge-gates/repository-knowledge-gates.md
+        run: |
+          bash scripts/verify-ac-tests.sh --spec spec/features/repository-knowledge-gates/repository-knowledge-gates.md
+          bash scripts/verify-ac-tests.sh --spec spec/features/design-ownership-promotion/design-ownership-promotion.md
       - name: Repository knowledge gates
         run: node scripts/verify-workspace.mjs

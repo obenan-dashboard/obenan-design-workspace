@@ -407,8 +407,8 @@ recorded as drift, not permission):
 Unresolved (see [DECISION_REQUESTS_v1.md](DECISION_REQUESTS_v1.md)):
 
 - Which Figma file and library is canon and what `DESIGN BETA` means
-  (DR-D02); who the design owner is (Seven names one after maintainership is
-  confirmed).
+  (DR-D02). DR-D11 separately resolves the design-owner role to
+  `seven-obenan`; it does not resolve DR-D02.
 - The wave's current authority and permitted usage (DR-D01, DR-D07), even
   though its bytes are verified.
 - Ink, canvas, link, hairline, and status values as final numbers (DR-D05);

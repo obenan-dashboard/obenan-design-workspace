@@ -1,3 +1,48 @@
+# DR-D11 ownership promotion and validation handoff
+
+## Plan
+
+- [x] Record Seven's exact owner assignment as acceptance criteria and add
+  failing repository-contract tests before promotion.
+- [x] Promote only DR-D11 ownership into approved design knowledge with date,
+  provenance, scope, and explicit non-approvals.
+- [x] Remove DR-D11 from the unresolved queue and make DR-D05 the next P0
+  decision without changing any visual value.
+- [x] Add an agent-ready validation brief and exact result template for
+  DR-D05, DR-D06, and DR-D08.
+- [x] Rebuild integrity records and run all local workspace gates.
+- [x] Publish the verified change as pull request #8.
+- [x] Merge pull request #8 after its remote gates pass.
+- [x] Link the ownership decision and validation work from issue #5;
+  keep #5 open until validated choices are ratified and promoted.
+
+## Test-first evidence
+
+RED confirmed against `origin/main` at
+`0f567cd5b8a978ce71feb90a03dda561a4b23315` with
+`node --test tests/design-ownership-promotion.test.mjs`: 0 passed, 4 failed,
+exit code 1. The failures identify the missing approved DR-D11 record,
+unchanged approved index and queue, missing validation brief, and missing
+result contract.
+
+## Review
+
+The test-first commit `9e3fc7a` preserves the RED baseline: 0 passed, 4
+failed. The implementation promotes only the two DR-D11 role assignments,
+names `seven-obenan` throughout the current-state records, advances DR-D05 to
+P0, and adds one no-implementation validation brief plus one result file.
+The full suite has 21 passing behavioral tests; both acceptance-traceability
+checks pass (8 repository criteria and 4 ownership-promotion criteria); the
+aggregate workspace gate passes with zero errors and zero freshness warnings;
+Actionlint, shell syntax, JavaScript syntax, diff whitespace, and the scoped
+secret-pattern scan pass. Pull request #8 is open, validation issue #9 is
+assigned to `seven-obenan`, and issue #5 links the work while remaining open.
+GitHub Workspace gates and CodeQL passed before the final merge bookkeeping;
+the merge is authorized only after the refreshed checks pass. Exact-main
+verification follows the merge.
+
+---
+
 # Marcin repository-quality issues #2–#6
 
 ## Plan

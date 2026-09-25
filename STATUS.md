@@ -44,6 +44,10 @@ media tracked by Git LFS. This improves access, not approval for current use.
   account-confidential, infrastructure, and directly exploitable security
   fields are withheld from this public repository; their immutable source is
   local commit `32c9003`.
+- DR-D11 ownership is approved: `seven-obenan` is both design owner and
+  frontend lead. This role assignment does not approve tokens, components,
+  visual values, implementation, or release authority. The exact record is
+  `knowledge/design/approved/DR-D11_CODE_OWNERSHIP.md`.
 
 ## Decision queue
 
@@ -54,10 +58,9 @@ decision, evidence, owner, date, and exact promoted scope.
 
 | Priority | Decision and state | Downstream unlock | Next evidence or owner action | Review checkpoint |
 | --- | --- | --- | --- | --- |
-| P0 | DR-D11 — `UNRESOLVED` | Names who can validate tokens, components, and the remaining implementation choices | Seven names the design owner and frontend lead; those owners confirm the Common UI ownership boundary | 2026-10-02 |
-| P1 | DR-D05 — `VALIDATION REQUIRED` | Core ink, canvas, text, link, hairline, and status tokens | Named design owner supplies contrast results and 375/1440 comparisons; Seven then ratifies or revises | 2026-10-09 |
-| P1 | DR-D06 — `VALIDATION REQUIRED` | Blur and elevation rules for fields, navigation, cards, sheets, and dialogs | Named design owner supplies the requested rendered before/after and product-design confirmation | 2026-10-09 |
-| P1 | DR-D08 — `VALIDATION REQUIRED` | Radius roles used by shared fields, tiles, boards, and pills | Named design owner supplies 12/16/20 comparisons at 375 and 1440 | 2026-10-09 |
+| P0 | DR-D05 — `VALIDATION REQUIRED` | Core ink, canvas, text, link, hairline, and status tokens | `seven-obenan` supplies contrast results and 375/1440 comparisons, then ratifies or revises in a separate decision record | 2026-10-09 |
+| P1 | DR-D06 — `VALIDATION REQUIRED` | Blur and elevation rules for fields, navigation, cards, sheets, and dialogs | Design owner `seven-obenan` supplies the requested rendered before/after and product-design confirmation | 2026-10-09 |
+| P1 | DR-D08 — `VALIDATION REQUIRED` | Radius roles used by shared fields, tiles, boards, and pills | Design owner `seven-obenan` supplies 12/16/20 comparisons at 375 and 1440 | 2026-10-09 |
 | P2 | DR-D12 — `UNRESOLVED` | Selects the first reference implementation after the system decisions land | Seven, the named owners, and the consuming-team owner confirm the first bounded surface and repository | 2026-10-16 |
 
 If a checkpoint passes without the required evidence, keep the state
@@ -102,12 +105,15 @@ those by itself.
     `TOKEN_COMPONENT_CONTRACT_v1.md`, `DECISION_REQUESTS_v1.md`).
   - Disposition (2026-08-19, after the correction round and the
     information-architecture pass): READY_FOR_FINAL_DECISIONS. Founder
-    requests DR-D01 to DR-D04, DR-D07, DR-D10 to DR-D12 are ready for
+    requests DR-D01 to DR-D04, DR-D07, DR-D10, and DR-D12 are ready for
     founder review; DR-D05, DR-D06, DR-D08, DR-D09 are proposed directions
-    awaiting rendered comparisons, contrast tests, and validation by a design
-    owner Seven names once maintainership is confirmed; presentation and deck
+    awaiting rendered comparisons, contrast tests, and validation by design
+    owner `seven-obenan`; presentation and deck
     discipline is under-evidenced; deployment and live state were not
     verified. Not READY_TO_LOCK while decisions remain open.
+  - DR-D11's role assignment is now approved with `seven-obenan` holding both
+    roles. Its recommended package allocation is still subject to current
+    technical verification.
   - Routing layer added 2026-08-19 without removing research: four-layer
     model in `START_HERE.md`; one-row task router `knowledge/TASK_ROUTER.md`;
     authority, retrieval, and hard stops in `AGENTS.md`; knowledge index

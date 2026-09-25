@@ -67,10 +67,25 @@ evidence produces a warning, not a hard failure. An ordered decision queue may
 name owners and checkpoints, but it must not convert unresolved proposals into
 approval.
 
+### 2026-09-25 — Promote the smallest approved decision, not its surrounding proposal
+
+A founder decision can resolve one missing governance fact without approving
+the design recommendations around it. Record that exact scope in the approved
+lane, update every current-state reference, and keep the remaining candidates
+in the proposed and validation lanes. This makes ownership usable immediately
+while preserving evidence and ratification gates for color, blur, radius,
+icons, workflow, and implementation sequencing.
+
+When one identity holds multiple roles, state that explicitly and retain the
+same accessibility, test-first, code-owner, and release checks. Role assignment
+is authority to perform or validate the next bounded work; it is not proof that
+the work is complete and is not an independent review.
+
 ## Change Log
 
 | Date | Change |
 | --- | --- |
+| 2026-09-25 | Added the smallest-scope approval and combined-role boundary |
 | 2026-09-25 | Added executable-gate, portable-source-alias, freshness, section-routing, and decision-queue findings |
 | 2026-09-25 | Added the private-implementation bridge pattern and credential boundary |
 | 2026-09-20 | Initial finding recorded after replacing the orientation-only product map with one unified repository-native document |

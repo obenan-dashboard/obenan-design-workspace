@@ -43,6 +43,16 @@ Verified: 2026-09-25
 - Product tasks can route through the section index in
   `knowledge/product/README.md`; unresolved design work is ordered in the
   decision queue in `STATUS.md` without promoting any proposal to approved.
+- DR-D11 now has one bounded approved record naming `seven-obenan` as design
+  owner and frontend lead. Repository tests prove the record leaves DR-D05,
+  DR-D06, DR-D08, DR-D09, DR-D10, and DR-D12 unresolved; the validation lane
+  requires evidence and explicit ratification before any visual scope can be
+  promoted.
+- On 2026-09-25, all 21 behavioral tests passed. Acceptance traceability
+  passed for all 8 repository-knowledge criteria and all 4 DR-D11 promotion
+  criteria. The aggregate workspace gate passed with zero freshness warnings;
+  Actionlint, shell syntax, JavaScript syntax, whitespace, and the scoped
+  secret-pattern scan also passed.
 - `git diff --check` passes.
 
 The original 2026-08-16 package verification remains preserved in Git
