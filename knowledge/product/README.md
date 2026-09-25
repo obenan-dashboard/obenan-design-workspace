@@ -9,9 +9,29 @@ of current live behavior.
 
 - [`UI_UX_KNOWLEDGE_DOC.md`](UI_UX_KNOWLEDGE_DOC.md) is the unified repository-native map. It combines the January 2026 master mapping, its v1.1 patch set, the January reconciliation report, and the September 2026 re-map.
 
-Agents and colleagues should start with that one file. The earlier
-orientation-only derivative has been removed so there is no competing product
-map or external-document dependency.
+Agents and colleagues should use the section index below and load only the
+sections relevant to their task. The earlier orientation-only derivative has
+been removed so there is no competing product map or external-document
+dependency.
+
+## Section-level routes
+
+Always read section 0 first for confidence markers and safety context. Then
+use the smallest matching bundle from the unified file:
+
+| Task intent | Read from `UI_UX_KNOWLEDGE_DOC.md` |
+| --- | --- |
+| Product orientation, support, or customer tutorial | Sections 0, 2, 3, 5, 7, and 9; add the relevant screen record from section 6 |
+| Navigation, route, or entry-point work | Sections 0, 3, 4, and 9; Appendices B and C |
+| One screen or page family | Sections 0, 5, 8, 11, and 12; only the matching subsection under section 6 |
+| Flow design or hand-off | Sections 0, 3.4, 7, and 9; section 10 before any live re-observation |
+| Component or frontend implementation | Sections 0, 8, 11, and 12; then [`../implementation/README.md`](../implementation/README.md) for the current Common UI contract |
+| Roles, permissions, or administration | Sections 0, 2, and 6.13; Appendices D through G |
+| Evidence refresh or live product audit | Sections 0, 10, 12, and Appendix J before opening the product |
+
+Do not preload the complete file when one bundle answers the task. Add another
+section only when the current section explicitly depends on it or the task
+crosses that boundary.
 
 ## Provenance and public-repository boundary
 

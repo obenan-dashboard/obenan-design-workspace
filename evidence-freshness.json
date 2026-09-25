@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "knowledge/product/UI_UX_KNOWLEDGE_DOC.md",
+      "observedThrough": "2026-09-19",
+      "sourceRevision": "sales-harness 32c9003",
+      "reverifyAfter": "2026-12-18"
+    },
+    {
+      "path": "research/design/2026-08-unified-design-discipline/EVIDENCE_LEDGER.md",
+      "observedThrough": "2026-08-19",
+      "sourceRevision": "whole-brain HEAD 4c895a0ff; origin/main 1e5f93241",
+      "reverifyAfter": "2026-11-17"
+    },
+    {
+      "path": "research/design/2026-08-unified-design-discipline/DRIFT_REGISTER.md",
+      "observedThrough": "2026-08-19",
+      "sourceRevision": "whole-brain HEAD 4c895a0ff; origin/main 1e5f93241",
+      "reverifyAfter": "2026-11-17"
+    },
+    {
+      "path": "research/design/2026-08-unified-design-discipline/FIGMA_CODE_PARITY_AUDIT.md",
+      "observedThrough": "2026-08-19",
+      "sourceRevision": "whole-brain HEAD 4c895a0ff; origin/main 1e5f93241",
+      "reverifyAfter": "2026-11-17"
+    }
+  ]
+}

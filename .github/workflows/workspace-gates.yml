@@ -1,0 +1,25 @@
+name: Workspace gates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Behavioral tests
+        run: node --test tests/*.test.mjs
+      - name: Acceptance-criterion traceability
+        run: bash scripts/verify-ac-tests.sh --spec spec/features/repository-knowledge-gates/repository-knowledge-gates.md
+      - name: Repository knowledge gates
+        run: node scripts/verify-workspace.mjs

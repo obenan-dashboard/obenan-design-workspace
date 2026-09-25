@@ -260,35 +260,35 @@ An agent must reject or hold a draft when any answer below is “yes.” Passing
 
 ### Governed local evidence, 15 sources
 
-L1. Obenan AI rules, current as retrieved 2026-08-19, [AGENTS.md](/Users/sevenerhan/ai-rules/AGENTS.md).
+L1. Obenan AI rules, current as retrieved 2026-08-19, [AGENTS.md](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled).
 
-L2. Obenan external authority and pull-request ownership rule, current as retrieved 2026-08-19, [external-authority-and-pr-ownership.md](/Users/sevenerhan/ai-rules/.claude/rules-corpus/external-authority-and-pr-ownership.md).
+L2. Obenan external authority and pull-request ownership rule, current as retrieved 2026-08-19, [external-authority-and-pr-ownership.md](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled).
 
-L3. Obenan design workspace entrypoint, current as retrieved 2026-08-19, [START_HERE.md](/Users/sevenerhan/Documents/obenan-design-workspace/START_HERE.md).
+L3. Obenan design workspace entrypoint, current as retrieved 2026-08-19, [START_HERE.md](../../../START_HERE.md).
 
-L4. Obenan design workspace governance, current as retrieved 2026-08-19, [AGENTS.md](/Users/sevenerhan/Documents/obenan-design-workspace/AGENTS.md).
+L4. Obenan design workspace governance, current as retrieved 2026-08-19, [AGENTS.md](../../../AGENTS.md).
 
-L5. Obenan design workspace status, current as retrieved 2026-08-19, [STATUS.md](/Users/sevenerhan/Documents/obenan-design-workspace/STATUS.md).
+L5. Obenan design workspace status, current as retrieved 2026-08-19, [STATUS.md](../../../STATUS.md).
 
-L6. Obenan design workspace domain map, current as retrieved 2026-08-19, [DOMAIN.md](/Users/sevenerhan/Documents/obenan-design-workspace/DOMAIN.md).
+L6. Obenan design workspace domain map, current as retrieved 2026-08-19, [DOMAIN.md](../../../DOMAIN.md).
 
-L7. Obenan Design Principles 2026, [DESIGN_PRINCIPLES_2026.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/DESIGN_PRINCIPLES_2026.md).
+L7. Obenan Design Principles 2026, [DESIGN_PRINCIPLES_2026.md](../../../reference/design-principles/DESIGN_PRINCIPLES_2026.md).
 
-L8. Obenan brand-system reference, current as retrieved 2026-08-19, [BRAND_SYSTEM.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_SYSTEM.md).
+L8. Obenan brand-system reference, current as retrieved 2026-08-19, [BRAND_SYSTEM.md](../../../reference/design-principles/BRAND_SYSTEM.md).
 
-L9. Obenan brand-asset library, current as retrieved 2026-08-19, [BRAND_ASSET_LIBRARY.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_ASSET_LIBRARY.md).
+L9. Obenan brand-asset library, current as retrieved 2026-08-19, [BRAND_ASSET_LIBRARY.md](../../../reference/design-principles/BRAND_ASSET_LIBRARY.md).
 
-L10. Obenan brand emotion website specification, 2026-08-13, [BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md).
+L10. Obenan brand emotion website specification, 2026-08-13, [BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md](../../../reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md).
 
-L11. Factory Girl asset register, 2026-08-13, [FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md).
+L11. Factory Girl asset register, 2026-08-13, [FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md](../../../reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md).
 
-L12. Obenan messaging reference index, current as retrieved 2026-08-19, [README.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/README.md).
+L12. Obenan messaging reference index, current as retrieved 2026-08-19, [README.md](../../../reference/messaging/README.md).
 
-L13. Obenan messaging research index, current as retrieved 2026-08-19, [README.md](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/README.md).
+L13. Obenan messaging research index, current as retrieved 2026-08-19, [README.md](../../../research/messaging/README.md).
 
-L14. StoryBrand and luxury refresh research brief, 2026-08, [README.md](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/README.md).
+L14. StoryBrand and luxury refresh research brief, 2026-08, [README.md](../../../research/messaging/2026-08-storybrand-luxury-refresh/README.md).
 
-L15. Diamond V1 messaging dataset snapshot, 2026-02-28, [2026-02-28-diamond-v1.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md).
+L15. Diamond V1 messaging dataset snapshot, 2026-02-28, [2026-02-28-diamond-v1.md](../../../reference/messaging/sources/2026-02-28-diamond-v1.md).
 
 ### External evidence, 21 sources
 

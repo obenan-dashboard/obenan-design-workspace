@@ -4,6 +4,15 @@ Date: 2026-08-19
 
 State: `OBSERVED_DRIFT / PROPOSED_DIRECTION / NOT_APPROVAL`
 
+## Evidence freshness
+
+- Observed through: `2026-08-19`
+- Source revision: `whole-brain HEAD 4c895a0ff; origin/main 1e5f93241`
+- Re-verify on or before: `2026-11-17`
+
+After the review date, the repository gate warns that current drift must be
+re-measured; it does not convert proposals into decisions.
+
 A drift item is a place where two sources that should agree do not, or where
 one source contradicts its own stated rule. Each item records the evidence,
 the intended behavior where it could be found, the likely owner, the

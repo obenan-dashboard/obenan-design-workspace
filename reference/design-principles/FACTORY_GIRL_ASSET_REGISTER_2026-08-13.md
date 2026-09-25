@@ -29,7 +29,7 @@ State: `COMPLETE_READ_ONLY_ASSET_REGISTER / PUBLICATION_NOT_AUTHORIZED`
 
 ## Exact local hero candidate
 
-- Path: `/Users/sevenerhan/Downloads/Healthy Dessert Coco Anjela .jpeg`
+- Path: `<external:downloads>/Healthy Dessert Coco Anjela .jpeg`
 - SHA-256: `cf1512041394253b5ffafb802fffcaedec0a669e8c47a2113acde2bdff18e0d8`
 - Size: 700,847 bytes
 - Dimensions: 1365x2048

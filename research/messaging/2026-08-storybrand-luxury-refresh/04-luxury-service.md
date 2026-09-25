@@ -204,7 +204,7 @@ These examples are research probes, not approved copy. Every safer pattern remai
 
 ### Local source under review
 
-**S1.** Obenan design workspace. "The Diamond: Communication Intelligence Framework, v1.0." 2026-02-28. Local source snapshot: [`2026-02-28-diamond-v1.md`](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md). Evidence type: February dataset under review. Limitation: synthesis document, not approval or scientific evidence.
+**S1.** Obenan design workspace. "The Diamond: Communication Intelligence Framework, v1.0." 2026-02-28. Local source snapshot: [`2026-02-28-diamond-v1.md`](../../../reference/messaging/sources/2026-02-28-diamond-v1.md). Evidence type: February dataset under review. Limitation: synthesis document, not approval or scientific evidence.
 
 ### Current Luxury Academy public guidance
 

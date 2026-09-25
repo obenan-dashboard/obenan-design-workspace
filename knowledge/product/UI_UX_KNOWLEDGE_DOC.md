@@ -4,6 +4,16 @@
 
 > **Public-repository edition.** This file preserves the unified information architecture, screen inventory, flows, interaction patterns, write-risk findings, UX audit, and provenance. Customer identity, account-specific identifiers and scale, internal infrastructure detail, and directly exploitable authentication detail are withheld. The immutable private source is commit `32c9003`, path `product/UI_UX_KNOWLEDGE_DOC.md`, Git blob `6d9d017a50451b81cb0df27919351c10f50f7528`.
 
+## Evidence freshness
+
+- Observed through: `2026-09-19`
+- Source revision: `sales-harness 32c9003`
+- Re-verify on or before: `2026-12-18`
+
+After the review date, the repository gate emits a warning rather than
+invalidating the historical evidence. Any implementation or customer claim
+still requires current re-verification.
+
 | | |
 | --- | --- |
 | Environment | Authenticated Obenan dashboard; exact runtime and API hosts withheld |

@@ -50,9 +50,27 @@ prompts, logs, and commits. If the implementation source cannot be checked,
 planning may continue as PARTIAL, but a replacement component decision must
 wait for the relevant supported contract to be verified.
 
+### 2026-09-25 — Written knowledge rules need executable repository gates
+
+An agent-readable workspace is only portable when a fresh clone can prove its
+own links, path boundaries, integrity records, and evidence dates. Keep the
+gate dependency-free, exercise behavior with fixtures before implementation,
+and expose one aggregate command in CI. Preserve original machine paths only
+in two explicit provenance records; translate the working corpus to relative
+links or named external-source aliases while retaining original bytes in Git
+history.
+
+Large knowledge maps should remain unified for authority but gain a
+section-level retrieval index for routine tasks. Dated evidence should declare
+its observation date, source revision, and review boundary; valid but old
+evidence produces a warning, not a hard failure. An ordered decision queue may
+name owners and checkpoints, but it must not convert unresolved proposals into
+approval.
+
 ## Change Log
 
 | Date | Change |
 | --- | --- |
+| 2026-09-25 | Added executable-gate, portable-source-alias, freshness, section-routing, and decision-queue findings |
 | 2026-09-25 | Added the private-implementation bridge pattern and credential boundary |
 | 2026-09-20 | Initial finding recorded after replacing the orientation-only product map with one unified repository-native document |

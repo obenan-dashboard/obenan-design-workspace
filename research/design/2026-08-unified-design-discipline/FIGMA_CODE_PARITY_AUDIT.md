@@ -4,6 +4,15 @@ Date: 2026-08-19
 
 State: `OBSERVED_AUDIT / NOT_APPROVAL`
 
+## Evidence freshness
+
+- Observed through: `2026-08-19`
+- Source revision: `whole-brain HEAD 4c895a0ff; origin/main 1e5f93241`
+- Re-verify on or before: `2026-11-17`
+
+After the review date, the repository gate warns that Figma and code parity
+must be re-measured; it does not invalidate the preserved comparison.
+
 Scope: three Figma files (Design Kit `8QpdzNKUeLPAhBzcUkzeuV`, V1 dashboard
 `OkXCFToKDIyje58fjdIoXt`, Brand `H3KZZ7qkFhFQLcCxBGtw1j`), two published team
 libraries, and the whole-brain frontend at HEAD `4c895a0ff` and `origin/main`

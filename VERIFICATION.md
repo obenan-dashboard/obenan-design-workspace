@@ -31,6 +31,18 @@ Verified: 2026-09-25
   are absent.
 - The starter integrity set in `FILE_INDEX.tsv` and `MANIFEST.sha256` passes
   byte-size, SHA-256, and MIME-type verification.
+- The dependency-free workspace gate checks every Markdown link, rejects
+  machine-specific paths outside the two provenance files, verifies the
+  SHA-256 manifest, and validates visible evidence-freshness metadata. The
+  same aggregate command and behavioral tests run in GitHub Actions. On
+  2026-09-25, all 17 behavioral tests and all 8 acceptance-criterion trace
+  checks passed; the aggregate command passed with zero current freshness
+  warnings. A future-date run after every configured review boundary passed
+  with four warnings and zero errors, proving that ageing evidence is visible
+  but non-blocking.
+- Product tasks can route through the section index in
+  `knowledge/product/README.md`; unresolved design work is ordered in the
+  decision queue in `STATUS.md` without promoting any proposal to approved.
 - `git diff --check` passes.
 
 The original 2026-08-16 package verification remains preserved in Git

@@ -1,3 +1,51 @@
+# Marcin repository-quality issues #2–#6
+
+## Plan
+
+- [x] Specify acceptance criteria and commit failing behavioral tests before
+  implementing the repository gates.
+- [x] Add executable relative-link, portability, integrity, and dated-evidence
+  freshness checks plus one aggregate command and GitHub Actions workflow.
+- [x] Rewrite tracked Markdown links and local-path references so a fresh clone
+  is portable while preserving original-source provenance in the path map and
+  Git history.
+- [x] Add section-level product-map routing so agents do not preload the full
+  61 KB map for every product task.
+- [x] Add a prioritized decision queue and review checkpoints without
+  misrepresenting unresolved DRs as approved.
+- [x] Add freshness headers to the product map and the three dated design
+  audits, with non-blocking warnings after their review dates.
+- [x] Rebuild integrity records, run the full behavioral matrix, and audit the
+  acceptance criteria.
+- [x] Publish the verified implementation through GitHub pull request #7.
+- [x] Configure the pull request to close only fully resolved issues and keep
+  the approval issue open until Seven records actual design and messaging
+  decisions.
+
+## Test-first evidence
+
+RED confirmed against commit `0b400aa48715d0961f1ede1036c9a368a3c544e0`
+with `node --test tests/*.test.mjs`: 0 passed, 5 failed. Failures name the
+missing gate module and aggregate command, absent section-level product route,
+absent decision queue, and corpus portability gap. Exit code 1. The tests were
+committed before implementation.
+
+## Review
+
+Implementation is complete locally. The test-first commit
+`ad266b8` preserves the RED baseline. The final suite has 17 passing
+behavioral tests across AC-RKG-1 through AC-RKG-8; acceptance traceability
+finds all 8 criteria; the aggregate repository gate passes with zero errors
+and zero current freshness warnings. A 2026-12-19 boundary run emits four
+freshness warnings but still exits successfully. The portable corpus now
+contains machine-specific home paths only in the two explicit provenance
+files, and all 59 indexed files plus `FILE_INDEX.tsv` are covered by the
+SHA-256 manifest. Issue #5 remains an approval decision gate even though its
+queue, checkpoints, and incremental-promotion rule are now implemented.
+Pull request #7 closes #2, #3, #4, and #6 on merge and only addresses #5.
+
+---
+
 # Common UI implementation-source bridge
 
 ## Plan
