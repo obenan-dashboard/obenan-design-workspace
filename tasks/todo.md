@@ -17,8 +17,8 @@
   audits, with non-blocking warnings after their review dates.
 - [x] Rebuild integrity records, run the full behavioral matrix, and audit the
   acceptance criteria.
-- [ ] Publish the verified implementation through a GitHub pull request.
-- [ ] Configure the pull request to close only fully resolved issues and keep
+- [x] Publish the verified implementation through GitHub pull request #7.
+- [x] Configure the pull request to close only fully resolved issues and keep
   the approval issue open until Seven records actual design and messaging
   decisions.
 
@@ -42,6 +42,7 @@ contains machine-specific home paths only in the two explicit provenance
 files, and all 59 indexed files plus `FILE_INDEX.tsv` are covered by the
 SHA-256 manifest. Issue #5 remains an approval decision gate even though its
 queue, checkpoints, and incremental-promotion rule are now implemented.
+Pull request #7 closes #2, #3, #4, and #6 on merge and only addresses #5.
 
 ---
 

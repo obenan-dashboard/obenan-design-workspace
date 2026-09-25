@@ -6,7 +6,7 @@ e17cc0e1f6810305d52204218f3d21ebd1cd105f70ede76164d8e0524030f0b3  ./BENCHMARKS.m
 f6b148146ec35e5bd64d80fa6da1e9bafc5f598d722624694057103ac8c341a0  ./DECISIONS_LOG.md
 fabfc60246d4e6e197cd3fa4544371e0fda7128ac049c2255b0587c1f72de1ac  ./DISTRIBUTION.md
 106a7f449320696a9f03867d5a023268332b56158f7c8a9d238dc09dc16048e9  ./DOMAIN.md
-43a282078d04f710fdada90068daa72592acabab46b575aa3635cf36a3ace206  ./FILE_INDEX.tsv
+a566277a91131f15edef79b62f99338e7affc4296f6afa66db9ec131eb0f8383  ./FILE_INDEX.tsv
 d32e587d461d9a47a25efae01e34601e91aac58b0b139018b084d23b50f26b64  ./LIBRARY_MAP.md
 985f4f35c32e58eb47c73e920549eefb9e2c3e4e2c3c8ad5f76f2929b8112663  ./PORTABLE_PATH_MAP.md
 a4396e7acf84f0297b53ded47ae76334bb55249dfe8fd830ac06ec1f34442f46  ./README.md
@@ -54,7 +54,7 @@ ddb45571bf21d1450d7a77978794824ec14beab176547c18891234c6ee7ca526  ./scripts/veri
 e39dcf35605a7dc943519c2db2149634af8dbb554efe63f43854a7b11f6f35aa  ./spec/features/repository-knowledge-gates/repository-knowledge-gates.md
 fd34b336dbd165fdb5a9cc4969d26b03ca847f79bdbf016b0cc4e2022af43f6a  ./spec/learnings/README.md
 9ffd58421a0553b66e1daf214fafaf170702c69857c4cbf91a055b7f94ce4795  ./spec/learnings/architecture-repository-native-knowledge.md
-4ee8bd6fa873c4132223baa088ec4d898e42e8af186cb49bcc455e5b6dda5bea  ./tasks/todo.md
+1ec936ac524cf98e1b31d40abc36296c5a3569d1d6fedc92e8859d487f546e37  ./tasks/todo.md
 5a9a5a542fcda845ea2be84c827c496efe0d21f4b22754d671d2a2676bbb8f38  ./templates/AGENT_ROTATION_PROMPT.md
 6ef325be2a37842d9b67a24d5c1ef98a3892ea478ba5258395912c5f1379e0c7  ./tests/repository-contracts.test.mjs
 3d379213f5286b6125b96b00504d32df479c2fec8f77751e2d98e0eca4d6ecbc  ./tests/workspace-gates.test.mjs
