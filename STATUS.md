@@ -15,9 +15,12 @@ root `LIBRARY_MAP.md` now provides one explicit route to brand story, brand
 documentation, logos, teasers, motion, UI source projects, and product UI/UX
 mapping.
 
-Verified: every starter file is a real local file with zero symlinks; all five
-Markdown design sources byte-match their originals; both original PDF
-references rendered and passed visual inspection. The complete historical
+Verified: every starter file is a real local file with zero symlinks. The
+original five Markdown design-source imports byte-match at Git commit
+`0b400aa48715d0961f1ede1036c9a368a3c544e0`; the current portable editions
+differ only where machine paths were translated to relative links or declared
+external-source aliases. Both original PDF references rendered and passed
+visual inspection. The complete historical
 workspace remains available in the FULL release archive. Seven authorized an
 individual-file mirror of the Gleb source assets on 2026-09-16; its 350
 material files are under `reference/brand-assets/original/Gleb/`, with large
@@ -41,6 +44,31 @@ media tracked by Git LFS. This improves access, not approval for current use.
   account-confidential, infrastructure, and directly exploitable security
   fields are withheld from this public repository; their immutable source is
   local commit `32c9003`.
+
+## Decision queue
+
+This queue orders the unresolved design decisions that unlock the most
+downstream work. It is scheduling metadata, not approval. A row remains
+`UNRESOLVED` or `VALIDATION REQUIRED` until its named DR record contains the
+decision, evidence, owner, date, and exact promoted scope.
+
+| Priority | Decision and state | Downstream unlock | Next evidence or owner action | Review checkpoint |
+| --- | --- | --- | --- | --- |
+| P0 | DR-D11 — `UNRESOLVED` | Names who can validate tokens, components, and the remaining implementation choices | Seven names the design owner and frontend lead; those owners confirm the Common UI ownership boundary | 2026-10-02 |
+| P1 | DR-D05 — `VALIDATION REQUIRED` | Core ink, canvas, text, link, hairline, and status tokens | Named design owner supplies contrast results and 375/1440 comparisons; Seven then ratifies or revises | 2026-10-09 |
+| P1 | DR-D06 — `VALIDATION REQUIRED` | Blur and elevation rules for fields, navigation, cards, sheets, and dialogs | Named design owner supplies the requested rendered before/after and product-design confirmation | 2026-10-09 |
+| P1 | DR-D08 — `VALIDATION REQUIRED` | Radius roles used by shared fields, tiles, boards, and pills | Named design owner supplies 12/16/20 comparisons at 375 and 1440 | 2026-10-09 |
+| P2 | DR-D12 — `UNRESOLVED` | Selects the first reference implementation after the system decisions land | Seven, the named owners, and the consuming-team owner confirm the first bounded surface and repository | 2026-10-16 |
+
+If a checkpoint passes without the required evidence, keep the state
+unresolved, update the checkpoint, and record the blocker. Do not silently
+promote a proposal from this table.
+
+When one decision is fully recorded, promote that decision's exact approved
+scope into the matching `knowledge/*/approved/` lane immediately; do not wait
+for every row or an entire proposed document to resolve. Promotion still
+requires the named evidence, owner, date, and scope—this queue grants none of
+those by itself.
 
 ## Active workstreams
 

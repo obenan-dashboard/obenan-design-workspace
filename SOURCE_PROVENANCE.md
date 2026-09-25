@@ -7,14 +7,20 @@ https://github.com/seven-obenan/obi-harness
 
 ## Design principles
 
-The files under `reference/design-principles/` were copied without content
-changes from Seven's current Obenan landing-page workspace:
+The files under `reference/design-principles/` were initially copied without
+content changes from Seven's Obenan landing-page workspace:
 
 - `DESIGN_PRINCIPLES_2026.md`
 - `BRAND_SYSTEM.md`
 - `BRAND_ASSET_LIBRARY.md`
 - `BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md`
 - `FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md`
+
+On 2026-09-25, machine-specific local paths in the portable corpus were
+mechanically translated to repository-relative links or the external-source
+aliases defined in `PORTABLE_PATH_MAP.md`. No design rule, copy direction, or
+approval state changed. The pristine pre-translation bytes remain in Git
+commit `0b400aa48715d0961f1ede1036c9a368a3c544e0`.
 
 ## Original brand assets
 

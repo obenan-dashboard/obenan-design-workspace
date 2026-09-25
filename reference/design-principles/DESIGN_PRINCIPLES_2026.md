@@ -5,13 +5,13 @@ authors:
   - Inputs: legacy Obenan Branding Guidelines, 2024 Brand Guidelines '24 (111-frame Figma deck), Claude Opus 4.7 deep research, ChatGPT 5.5 Pro deep research, BRAND_SYSTEM.md, BRAND_ASSET_LIBRARY.md
 date: 2026-05-10
 companion_files:
-  - /Users/sevenerhan/obenan-landing-page/BRAND_SYSTEM.md (landing page brand governance)
-  - /Users/sevenerhan/obenan-landing-page/BRAND_ASSET_LIBRARY.md (canonical assets)
-  - /Users/sevenerhan/obenan-landing-page/research/2026-05-10-claude-deep-research-design-principles.md
-  - /Users/sevenerhan/obenan-landing-page/research/2026-05-10-chatgpt-deep-research-design-principles.md
-  - /Users/sevenerhan/obenan-landing-page/research/2024-legacy-obenan-branding-guidelines.md
+  - ../../reference/design-principles/BRAND_SYSTEM.md (landing page brand governance)
+  - ../../reference/design-principles/BRAND_ASSET_LIBRARY.md (canonical assets)
+  - <external:obenan-landing-page>/research/2026-05-10-claude-deep-research-design-principles.md
+  - <external:obenan-landing-page>/research/2026-05-10-chatgpt-deep-research-design-principles.md
+  - <external:obenan-landing-page>/research/2024-legacy-obenan-branding-guidelines.md
   - Figma Brand file (current): https://www.figma.com/design/H3KZZ7qkFhFQLcCxBGtw1j/Brand
-  - ObiGEO three-lens design floor: /Users/sevenerhan/ObiGEO/spec/features/three-lens-design-floor.md
+  - ObiGEO three-lens design floor: <external:ObiGEO>/spec/features/three-lens-design-floor.md
 consumed_by:
   - ObiGEO Wave I-D and later executor briefs
   - obenan-landing-page surfaces and future iterations
@@ -95,7 +95,7 @@ The Obenan logo is the **rainbow wave mark** sitting above the lowercase **`oben
 Logo system rules:
 - Available at 4x, 2x, and 1x scales.
 - Variants: primary (wave plus wordmark), circular, square, outlined.
-- Canonical asset paths live in `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/`.
+- Canonical asset paths live in `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/`.
 - The wave is identity. The capsule-spectrum motif on marketing surfaces is atmosphere. These are two distinct visual systems; never confuse them in a product surface.
 
 ### Typography
@@ -180,7 +180,7 @@ Inherited verbatim from BRAND_SYSTEM.md:
 - Motion clarifies state, never decorates.
 - One focal interaction moment per screen with controlled aura or glow.
 - The strongest patterns: state progression, guided reveal, subtle operating-surface transitions, one focal moment.
-- Existing motion asset paths in `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui/` (assistant, insights, overview, onboarding) form the motion vocabulary. Inherit, do not invent.
+- Existing motion asset paths in `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui/` (assistant, insights, overview, onboarding) form the motion vocabulary. Inherit, do not invent.
 - Reduced-motion preferences preserved across every motion.
 
 ### Voice and StoryBrand spine
@@ -444,7 +444,7 @@ These cannot be resolved by this document alone. They get revisited as Waves shi
 
 All assets below were produced by designer Gleb in 2024 and represent the canonical production-ready brand materials. Current home is the original folder with the trailing space:
 
-`/Users/sevenerhan/Documents/Obenan Gleb Branding Assets ` (note the trailing space character)
+`<external:gleb-source>` (note the trailing space character)
 
 The `obenan-landing-page/reference/branding-assets/canonical/` folder structure exists but is currently empty. The original folder is the live source until a mirror operation is completed (see "Design ops debt" below).
 
@@ -535,7 +535,7 @@ The strongest single voice reference for what Obenan stands for:
 ## Sources and lineage
 
 **Brand legacy (1.0 generation):**
-- Obenan Branding Guidelines (legacy, retained at `/Users/sevenerhan/obenan-landing-page/research/2024-legacy-obenan-branding-guidelines.md`).
+- Obenan Branding Guidelines (legacy, retained at `<external:obenan-landing-page>/research/2024-legacy-obenan-branding-guidelines.md`).
 
 **Brand current (2.0 generation):**
 - Brand Guidelines '24 Figma deck (111 frames, five sections): `https://www.figma.com/design/H3KZZ7qkFhFQLcCxBGtw1j/Brand`.
@@ -543,16 +543,16 @@ The strongest single voice reference for what Obenan stands for:
 - BRAND_ASSET_LIBRARY.md (canonical logo, motion, and asset paths).
 
 **2026 deep research:**
-- Claude Opus 4.7 Deep Research: `/Users/sevenerhan/obenan-landing-page/research/2026-05-10-claude-deep-research-design-principles.md`.
-- ChatGPT 5.5 Pro Deep Research: `/Users/sevenerhan/obenan-landing-page/research/2026-05-10-chatgpt-deep-research-design-principles.md`.
+- Claude Opus 4.7 Deep Research: `<external:obenan-landing-page>/research/2026-05-10-claude-deep-research-design-principles.md`.
+- ChatGPT 5.5 Pro Deep Research: `<external:obenan-landing-page>/research/2026-05-10-chatgpt-deep-research-design-principles.md`.
 
 **ObiGEO specs:**
-- Phase I three-lens contract: `/Users/sevenerhan/ObiGEO/spec/features/ai-three-lens.md`.
-- ObiGEO three-lens design floor: `/Users/sevenerhan/ObiGEO/spec/features/three-lens-design-floor.md`.
-- Visual reference deconstruction: `/Users/sevenerhan/ObiGEO/spec/diagrams/three-lens-visual-reference.md`.
+- Phase I three-lens contract: `<external:ObiGEO>/spec/features/ai-three-lens.md`.
+- ObiGEO three-lens design floor: `<external:ObiGEO>/spec/features/three-lens-design-floor.md`.
+- Visual reference deconstruction: `<external:ObiGEO>/spec/diagrams/three-lens-visual-reference.md`.
 
 **Decision history:**
-- All founder ratifications: `/Users/sevenerhan/GEO/DECISIONS_LOG.md`.
+- All founder ratifications: `<external:GEO>/DECISIONS_LOG.md`.
 
 ---
 

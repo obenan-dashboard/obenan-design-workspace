@@ -1,6 +1,6 @@
 ---
 title: Repository knowledge gates and agent routing
-status: in-progress
+status: complete
 owner: Seven
 date: 2026-09-25
 issues: [2, 3, 4, 5, 6]
@@ -43,10 +43,12 @@ repository-local Markdown link.
 
 ### AC-RKG-2 — Portability behavior
 
-The portability gate rejects `/Users/` paths in tracked Markdown except in
-the exact provenance allowlist (`PORTABLE_PATH_MAP.md` and root
+The portability gate rejects machine-specific absolute macOS home paths in
+tracked Markdown except in the exact provenance allowlist
+(`PORTABLE_PATH_MAP.md` and root
 `SOURCE_PROVENANCE.md`). Inline code and ordinary prose are checked as well as
-link destinations.
+link destinations. Every external-source alias used by the corpus must be
+declared in the portable path map.
 
 ### AC-RKG-3 — Integrity behavior
 
@@ -83,7 +85,7 @@ explicitly unresolved until its named decision record is updated.
 ### AC-RKG-8 — Existing corpus becomes portable
 
 All tracked Markdown outside the two provenance allowlist files contains zero
-`/Users/` paths, all relative Markdown links resolve, and the integrity index
+machine-specific absolute home paths, all relative Markdown links resolve, and the integrity index
 and manifest cover the new gate, spec, configuration, tests, and routing files.
 
 ## Input/output matrix
@@ -91,7 +93,7 @@ and manifest cover the new gate, spec, configuration, tests, and routing files.
 | Gate | Valid input | Invalid or missing input | Boundary/compatibility case | Expected outcome |
 | --- | --- | --- | --- | --- |
 | Links | Existing file or directory | Missing target | External URL, anchor, URL-encoded path | Pass valid/ignored links; report missing local target |
-| Portability | Repository-relative or external reference | `/Users/...` in prose, code, or link | Exact allowlisted provenance file | Reject invalid path; permit only allowlist |
+| Portability | Repository-relative or external reference | Machine-specific absolute home path in prose, code, or link | Exact allowlisted provenance file | Reject invalid path; permit only allowlist |
 | Integrity | Matching file/hash | Missing file, malformed row, changed bytes | Empty/non-indexed unrelated file | Report each manifest defect without shell-specific hashing |
 | Freshness | Complete metadata before review date | Missing file/field or invalid dates | Today equals review date; today is one day later | Pass through boundary; warn after it; fail malformed metadata |
 | Router | Named section bundle | Bare full-map preload | Safety task explicitly routed to section 10 | Route only required numbered sections |

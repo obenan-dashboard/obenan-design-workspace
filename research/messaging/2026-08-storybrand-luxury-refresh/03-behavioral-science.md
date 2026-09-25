@@ -281,4 +281,4 @@ Key governed context used in this audit:
 - [`2026-08-storybrand-luxury-refresh/README.md`](README.md)
 - [`2026-02-28-diamond-v1.md`](../../../reference/messaging/sources/2026-02-28-diamond-v1.md)
 
-The two external governance files read before research were `/Users/sevenerhan/ai-rules/AGENTS.md` and `/Users/sevenerhan/ai-rules/.claude/rules-corpus/external-authority-and-pr-ownership.md`.
+The two external governance files read before research were `<external:ai-rules>/AGENTS.md` and `<external:ai-rules>/.claude/rules-corpus/external-authority-and-pr-ownership.md`.

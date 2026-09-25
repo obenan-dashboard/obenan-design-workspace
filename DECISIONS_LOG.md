@@ -1,5 +1,22 @@
 # Decisions Log
 
+## Dependency-free repository gates and explicit evidence ageing
+
+Date: 2026-09-25
+
+Decision: Run one dependency-free verification command locally and in GitHub
+Actions for relative links, machine-path portability, SHA-256 integrity, and
+visible evidence-freshness metadata. Route product tasks through numbered
+sections of the unified map. Keep ageing evidence warning-only once its
+metadata is valid, and keep decision-queue rows explicitly unresolved until
+their decision records are updated.
+
+Consequence: A fresh clone can prove that its knowledge is navigable and
+untampered without installing repository dependencies. Agents can retrieve a
+bounded product context and see evidence age or decision blockers without
+mistaking either for approval. Original machine-path provenance remains only
+in the two declared provenance files and pre-translation Git history.
+
 ## Link to Common UI; do not duplicate it
 
 Date: 2026-09-25

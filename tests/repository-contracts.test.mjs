@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -12,7 +13,14 @@ function read(relativePath) {
 
 describe('AC-RKG-5 one executable gate', () => {
   test('the repository exposes one aggregate verification command', () => {
-    assert.match(read('scripts/verify-workspace.mjs'), /runWorkspaceChecks/);
+    const result = spawnSync(process.execPath, [
+      'scripts/verify-workspace.mjs',
+      '--root', root,
+      '--now', '2026-09-25',
+    ], { cwd: root, encoding: 'utf8' });
+
+    assert.equal(result.status, 0, result.stderr);
+    assert.match(result.stdout, /Workspace gates passed/);
     assert.match(read('.github/workflows/workspace-gates.yml'), /verify-workspace\.mjs/);
   });
 });

@@ -63,6 +63,16 @@ describe('AC-RKG-1 relative-link behavior', () => {
       reason: 'missing target',
     }]);
   });
+
+  test('rejects malformed encoding and links that escape the repository', () => {
+    const root = fixture();
+    write(root, 'README.md', '[encoding](docs/%ZZ.md)\n[escape](../outside.md)\n');
+
+    assert.deepEqual(checkRelativeMarkdownLinks(root).map(({ reason }) => reason), [
+      'invalid URL encoding',
+      'target escapes repository',
+    ]);
+  });
 });
 
 describe('AC-RKG-2 portability behavior', () => {
@@ -79,6 +89,23 @@ describe('AC-RKG-2 portability behavior', () => {
     write(root, 'SOURCE_PROVENANCE.md', 'Original: `/Users/example/source`\n');
 
     assert.deepEqual(checkPortability(root), []);
+  });
+
+  test('does not allow a provenance filename nested below another directory', () => {
+    const root = fixture();
+    write(root, 'nested/SOURCE_PROVENANCE.md', 'Original: `/Users/example/source`\n');
+
+    assert.equal(checkPortability(root).length, 1);
+  });
+
+  test('accepts declared external-source aliases and rejects undefined ones', () => {
+    const root = fixture();
+    write(root, 'PORTABLE_PATH_MAP.md', '| `<external:known>` | source |\n');
+    write(root, 'notes.md', '`<external:known>/a`\n`<external:unknown>/b`\n');
+
+    assert.deepEqual(checkPortability(root).map(({ reason }) => reason), [
+      'undefined external-source alias <external:unknown>',
+    ]);
   });
 });
 
@@ -103,6 +130,12 @@ describe('AC-RKG-3 integrity behavior', () => {
     write(root, 'MANIFEST.sha256', 'not-a-manifest-row\n');
 
     assert.equal(verifyIntegrityManifest(root)[0].reason, 'malformed manifest line');
+  });
+
+  test('reports a missing manifest', () => {
+    const root = fixture();
+
+    assert.equal(verifyIntegrityManifest(root)[0].reason, 'missing manifest');
   });
 });
 
@@ -143,5 +176,18 @@ describe('AC-RKG-4 evidence-freshness behavior', () => {
     write(root, entry.path, evidenceHeader({ sourceRevision: 'wrong-source' }));
 
     assert.equal(checkEvidenceFreshness(root, [entry], new Date('2026-01-02T00:00:00Z')).errors.length, 1);
+  });
+
+  test('fails missing required fields, impossible dates, and missing files', () => {
+    const root = fixture();
+
+    const missingField = checkEvidenceFreshness(root, [{ ...entry, sourceRevision: '' }]);
+    assert.equal(missingField.errors[0].reason, 'missing required freshness field');
+
+    const impossibleDate = checkEvidenceFreshness(root, [{ ...entry, reverifyAfter: '2026-02-31' }]);
+    assert.equal(impossibleDate.errors[0].reason, 'invalid configured freshness date');
+
+    const missingFile = checkEvidenceFreshness(root, [entry]);
+    assert.equal(missingFile.errors[0].reason, 'configured evidence file is missing');
   });
 });

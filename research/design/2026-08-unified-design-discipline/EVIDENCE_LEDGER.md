@@ -4,6 +4,15 @@ Date: 2026-08-19
 
 State: `OBSERVED_EVIDENCE / NOT_APPROVAL`
 
+## Evidence freshness
+
+- Observed through: `2026-08-19`
+- Source revision: `whole-brain HEAD 4c895a0ff; origin/main 1e5f93241`
+- Re-verify on or before: `2026-11-17`
+
+After the review date, the repository gate warns that the evidence should be
+re-observed; it does not rewrite or invalidate this preserved audit.
+
 Every row below records where a fact came from, what it can prove, and what it
 cannot. Labels: `OBSERVED` (seen directly in the source), `INFERRED` (a
 judgment from observed facts), `PROPOSED` (a recommendation), `UNRESOLVED`
@@ -15,7 +24,7 @@ judgment from observed facts), `PROPOSED` (a recommendation), `UNRESOLVED`
 
 | Item | Value |
 | --- | --- |
-| Repository | `/Users/sevenerhan/whole-brain` |
+| Repository | `<external:whole-brain>` |
 | Working branch | `feature/obifeed-mvp-4074` |
 | Working HEAD | `4c895a0ff3002edad488a2df77316d20efdd7088` (2026-06-28, "fix(obifeed): gate share artifacts by advertised format") |
 | Cached `origin/main` at inspection | `916701da3cce9cf9bc8fe591418f035accd2761d` (2026-08-19, merge of PR #4813) |

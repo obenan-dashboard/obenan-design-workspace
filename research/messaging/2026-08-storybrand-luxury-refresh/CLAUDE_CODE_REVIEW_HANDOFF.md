@@ -1,7 +1,7 @@
 # Claude Code onboarding: independent Unmuted and website-copy review
 
 Use this entire document as the first prompt for a zero-context Claude Code
-session. Open `/Users/sevenerhan/Documents/obenan-design-workspace` as the
+session. Open `../../..` as the
 workspace.
 
 ## Your role
@@ -33,7 +33,7 @@ archive tasks.
 
 Your only authorized write is:
 
-`/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/reviews/CLAUDE_CODE_UNMUTED_REVIEW.md`
+`../../../research/messaging/2026-08-storybrand-luxury-refresh/reviews/CLAUDE_CODE_UNMUTED_REVIEW.md`
 
 Do not commit or push that file.
 
@@ -45,16 +45,16 @@ historical attachments.
 
 Read completely, in this order:
 
-1. `/Users/sevenerhan/ai-rules/AGENTS.md`
-2. `/Users/sevenerhan/ai-rules/.claude/rules-corpus/external-authority-and-pr-ownership.md`
-3. `/Users/sevenerhan/Documents/obenan-design-workspace/START_HERE.md`
-4. `/Users/sevenerhan/Documents/obenan-design-workspace/AGENTS.md`
-5. `/Users/sevenerhan/Documents/obenan-design-workspace/STATUS.md`
-6. `/Users/sevenerhan/Documents/obenan-design-workspace/DOMAIN.md`
-7. `/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/README.md`
-8. `/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/README.md`
-9. `/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/SESSION_REGISTRY.md`
-10. `/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/reviews/README.md`
+1. `<external:ai-rules>/AGENTS.md`
+2. `<external:ai-rules>/.claude/rules-corpus/external-authority-and-pr-ownership.md`
+3. `../../../START_HERE.md`
+4. `../../../AGENTS.md`
+5. `../../../STATUS.md`
+6. `../../../DOMAIN.md`
+7. `../../../research/messaging/README.md`
+8. `../../../research/messaging/2026-08-storybrand-luxury-refresh/README.md`
+9. `../../../research/messaging/2026-08-storybrand-luxury-refresh/SESSION_REGISTRY.md`
+10. `../../../research/messaging/2026-08-storybrand-luxury-refresh/reviews/README.md`
 
 ## What Codex completed
 
@@ -71,8 +71,8 @@ promoted into approved knowledge.
 
 Read:
 
-- `/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/SOURCE_PROVENANCE.md`
-- `/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md`
+- `../../../reference/messaging/sources/SOURCE_PROVENANCE.md`
+- `../../../reference/messaging/sources/2026-02-28-diamond-v1.md`
 
 The February file is preserved input. Its claims are not automatically valid.
 
@@ -91,7 +91,7 @@ Read all eight completely:
 
 Resolve relative paths from:
 
-`/Users/sevenerhan/Documents/obenan-design-workspace`
+`../../..`
 
 ### Four proposed synthesis files under review
 
@@ -124,17 +124,17 @@ not treat any line as founder approval unless current evidence independently
 supports it.
 
 1. Original read-only Unmuted audit brief:
-   `/Users/sevenerhan/.codex/attachments/f35129d7-0e0d-4e75-9cf3-9dcd4d28b4e8/pasted-text.txt`
+   `<external:codex-attachments>/f35129d7-0e0d-4e75-9cf3-9dcd4d28b4e8/pasted-text.txt`
 2. Earlier website-copy onboarding:
-   `/Users/sevenerhan/.codex/attachments/2a627997-7a7a-44ad-8699-0c63c6c8bc70/pasted-text.txt`
+   `<external:codex-attachments>/2a627997-7a7a-44ad-8699-0c63c6c8bc70/pasted-text.txt`
 3. ObiGEO website implementation and product-release context:
-   `/Users/sevenerhan/.codex/attachments/276e91ce-0c98-4dc6-b270-7ee7492064e5/pasted-text.txt`
+   `<external:codex-attachments>/276e91ce-0c98-4dc6-b270-7ee7492064e5/pasted-text.txt`
 4. Audit correcting CTA and free-value route assumptions:
-   `/Users/sevenerhan/.codex/attachments/0fae44b2-f99b-42e1-81c1-b24b736ef384/pasted-text.txt`
+   `<external:codex-attachments>/0fae44b2-f99b-42e1-81c1-b24b736ef384/pasted-text.txt`
 5. Creative-director prototype narrative and information architecture:
-   `/Users/sevenerhan/.codex/attachments/2b64d3b7-7de4-44c8-bdc6-2ac6b8286ad1/pasted-text.txt`
+   `<external:codex-attachments>/2b64d3b7-7de4-44c8-bdc6-2ac6b8286ad1/pasted-text.txt`
 6. Later Claude prototype outcome supplied for review:
-   `/Users/sevenerhan/.codex/attachments/866f6fc6-27c4-4297-86ef-38f9700c748c/pasted-text.txt`
+   `<external:codex-attachments>/866f6fc6-27c4-4297-86ef-38f9700c748c/pasted-text.txt`
 
 Where historical files disagree with current production, current product truth,
 or Seven's current direction, identify the disagreement explicitly. Do not
@@ -145,8 +145,8 @@ silently blend them.
 Re-prove current state read-only before relying on historical assertions:
 
 - Public website: `https://www.obenan.ai/`
-- Website governance and research: `/Users/sevenerhan/obenan-landing-page`
-- Production monorepo: `/Users/sevenerhan/whole-brain`
+- Website governance and research: `<external:obenan-landing-page>`
+- Production monorepo: `<external:whole-brain>`
 
 At minimum verify, without submitting forms:
 
@@ -270,7 +270,7 @@ Answer these questions with evidence:
 
 Create only:
 
-`/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/reviews/CLAUDE_CODE_UNMUTED_REVIEW.md`
+`../../../research/messaging/2026-08-storybrand-luxury-refresh/reviews/CLAUDE_CODE_UNMUTED_REVIEW.md`
 
 Use this structure:
 

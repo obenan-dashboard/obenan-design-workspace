@@ -257,22 +257,22 @@ No synthesis may turn a proposal, prototype, draft, test, receipt, or isolated s
 
 ### Local evidence reviewed
 
-- **L01.** [Global Codex Agent Rules](/Users/sevenerhan/ai-rules/AGENTS.md), Obenan AI rules, accessed 2026-08-19.
-- **L02.** [External authority and PR ownership](/Users/sevenerhan/ai-rules/.claude/rules-corpus/external-authority-and-pr-ownership.md), Obenan AI rules corpus, accessed 2026-08-19.
-- **L03.** [START_HERE.md](/Users/sevenerhan/Documents/obenan-design-workspace/START_HERE.md), Obenan design workspace, accessed 2026-08-19.
-- **L04.** [AGENTS.md](/Users/sevenerhan/Documents/obenan-design-workspace/AGENTS.md), Obenan design workspace governance, accessed 2026-08-19.
-- **L05.** [STATUS.md](/Users/sevenerhan/Documents/obenan-design-workspace/STATUS.md), Obenan design workspace, accessed 2026-08-19.
-- **L06.** [DOMAIN.md](/Users/sevenerhan/Documents/obenan-design-workspace/DOMAIN.md), Obenan design workspace, accessed 2026-08-19.
-- **L07.** [DESIGN_PRINCIPLES_2026.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/DESIGN_PRINCIPLES_2026.md), Obenan reference evidence, accessed 2026-08-19.
-- **L08.** [BRAND_SYSTEM.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_SYSTEM.md), Obenan reference evidence, accessed 2026-08-19.
-- **L09.** [BRAND_ASSET_LIBRARY.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_ASSET_LIBRARY.md), Obenan reference evidence, accessed 2026-08-19.
-- **L10.** [BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md), draft Obenan reference evidence, accessed 2026-08-19.
-- **L11.** [FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md), Obenan reference evidence, accessed 2026-08-19.
-- **L12.** [Reference messaging README](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/README.md), Obenan reference evidence, accessed 2026-08-19.
-- **L13.** [Research messaging README](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/README.md), Obenan research governance, accessed 2026-08-19.
-- **L14.** [StoryBrand and luxury refresh README](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/README.md), Obenan research governance, accessed 2026-08-19.
-- **L15.** [2026-02-28-diamond-v1.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md), preserved February messaging dataset, dated 2026-02-28 and accessed 2026-08-19.
-- **L16.** [SOURCE_PROVENANCE.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/SOURCE_PROVENANCE.md), provenance record dated 2026-08-19.
+- **L01.** [Global Codex Agent Rules](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled), Obenan AI rules, accessed 2026-08-19.
+- **L02.** [External authority and PR ownership](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled), Obenan AI rules corpus, accessed 2026-08-19.
+- **L03.** [START_HERE.md](../../../START_HERE.md), Obenan design workspace, accessed 2026-08-19.
+- **L04.** [AGENTS.md](../../../AGENTS.md), Obenan design workspace governance, accessed 2026-08-19.
+- **L05.** [STATUS.md](../../../STATUS.md), Obenan design workspace, accessed 2026-08-19.
+- **L06.** [DOMAIN.md](../../../DOMAIN.md), Obenan design workspace, accessed 2026-08-19.
+- **L07.** [DESIGN_PRINCIPLES_2026.md](../../../reference/design-principles/DESIGN_PRINCIPLES_2026.md), Obenan reference evidence, accessed 2026-08-19.
+- **L08.** [BRAND_SYSTEM.md](../../../reference/design-principles/BRAND_SYSTEM.md), Obenan reference evidence, accessed 2026-08-19.
+- **L09.** [BRAND_ASSET_LIBRARY.md](../../../reference/design-principles/BRAND_ASSET_LIBRARY.md), Obenan reference evidence, accessed 2026-08-19.
+- **L10.** [BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md](../../../reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md), draft Obenan reference evidence, accessed 2026-08-19.
+- **L11.** [FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md](../../../reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md), Obenan reference evidence, accessed 2026-08-19.
+- **L12.** [Reference messaging README](../../../reference/messaging/README.md), Obenan reference evidence, accessed 2026-08-19.
+- **L13.** [Research messaging README](../../../research/messaging/README.md), Obenan research governance, accessed 2026-08-19.
+- **L14.** [StoryBrand and luxury refresh README](../../../research/messaging/2026-08-storybrand-luxury-refresh/README.md), Obenan research governance, accessed 2026-08-19.
+- **L15.** [2026-02-28-diamond-v1.md](../../../reference/messaging/sources/2026-02-28-diamond-v1.md), preserved February messaging dataset, dated 2026-02-28 and accessed 2026-08-19.
+- **L16.** [SOURCE_PROVENANCE.md](../../../reference/messaging/sources/SOURCE_PROVENANCE.md), provenance record dated 2026-08-19.
 
 ### External sources reviewed
 

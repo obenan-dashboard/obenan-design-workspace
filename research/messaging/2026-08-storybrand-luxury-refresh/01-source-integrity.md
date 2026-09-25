@@ -5,8 +5,8 @@ Approval state: `NOT_APPROVED_COPY_OR_BRAND_CANON`
 Specialist role: Source Integrity Auditor  
 Audit date and research cutoff: 2026-08-19  
 Retrieval date for web sources: 2026-08-19  
-Dataset audited: [2026-02-28-diamond-v1.md](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md)  
-Assigned output: `/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/01-source-integrity.md`
+Dataset audited: [2026-02-28-diamond-v1.md](../../../reference/messaging/sources/2026-02-28-diamond-v1.md)
+Assigned output: `../../../research/messaging/2026-08-storybrand-luxury-refresh/01-source-integrity.md`
 
 ## Scope and method
 
@@ -353,12 +353,12 @@ The following extractions may survive into synthesis only with the stated bounda
 
 The list contains 37 reviewed sources. Sources S07-S21 are primary first-party sources for framework or product attribution. Sources S22-S37 are peer-reviewed. First-party marketing pages are primary evidence of what an organization claims, not independent proof that a method works or a product outcome occurred.
 
-1. **S01.** Obenan. *The Diamond: Communication Intelligence Framework*, version 1.0, 2026-02-28. Local historical dataset. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md).
-2. **S02.** Obenan Design Workspace. *AGENTS.md*. Current governed workspace rules. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/AGENTS.md).
-3. **S03.** Obenan Design Workspace. *STATUS.md*. Current authority and approval state. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/STATUS.md).
-4. **S04.** Obenan Design Workspace. *Design Principles 2026*. Historical and current design claims. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/DESIGN_PRINCIPLES_2026.md).
-5. **S05.** Obenan Design Workspace. *Brand System*. Historical and current brand claims. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_SYSTEM.md).
-6. **S06.** Obenan Design Workspace. *Brand Emotion Website Spec*, 2026-08-13. Draft, source-backed direction with human approval required. Retrieved 2026-08-19. [Source file](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md).
+1. **S01.** Obenan. *The Diamond: Communication Intelligence Framework*, version 1.0, 2026-02-28. Local historical dataset. Retrieved 2026-08-19. [Source file](../../../reference/messaging/sources/2026-02-28-diamond-v1.md).
+2. **S02.** Obenan Design Workspace. *AGENTS.md*. Current governed workspace rules. Retrieved 2026-08-19. [Source file](../../../AGENTS.md).
+3. **S03.** Obenan Design Workspace. *STATUS.md*. Current authority and approval state. Retrieved 2026-08-19. [Source file](../../../STATUS.md).
+4. **S04.** Obenan Design Workspace. *Design Principles 2026*. Historical and current design claims. Retrieved 2026-08-19. [Source file](../../../reference/design-principles/DESIGN_PRINCIPLES_2026.md).
+5. **S05.** Obenan Design Workspace. *Brand System*. Historical and current brand claims. Retrieved 2026-08-19. [Source file](../../../reference/design-principles/BRAND_SYSTEM.md).
+6. **S06.** Obenan Design Workspace. *Brand Emotion Website Spec*, 2026-08-13. Draft, source-backed direction with human approval required. Retrieved 2026-08-19. [Source file](../../../reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md).
 7. **S07.** Miller, Donald / StoryBrand. *Introduction to StoryBrand*. Undated current download. Retrieved 2026-08-19. [Official PDF](https://storybrand.com/downloads/intro-to-sb/Introduction-to-StoryBrand.pdf).
 8. **S08.** StoryBrand. *The StoryBrand 7-Part Framework Online Course Workbook*. Copyright 2018. Retrieved 2026-08-19. [Official PDF](https://storybrand.com/downloads/StoryBrand-Online-Marketing-Course-Workbook.pdf).
 9. **S09.** Miller, Donald / StoryBrand. *Three Paradigm Shifts That Will Improve Your Marketing*, 2015. Retrieved 2026-08-19. [Official article](https://storybrand.com/three-paradigm-shifts-that-will-improve-your-marketing/).
@@ -390,4 +390,3 @@ The list contains 37 reviewed sources. Sources S07-S21 are primary first-party s
 35. **S35.** Pandey, Santosh Kumar, and Amit Mookerjee. *Assessing the Role of Emotions in B2B Decision Making: An Exploratory Study*. *Journal of Indian Business Research* 10(2), 2018, 170-192. [DOI 10.1108/JIBR-10-2017-0171](https://doi.org/10.1108/JIBR-10-2017-0171). Retrieved 2026-08-19.
 36. **S36.** Stephens, Greg J., Lauren J. Silbert, and Uri Hasson. *Speaker-Listener Neural Coupling Underlies Successful Communication*. *PNAS* 107(32), 2010, 14425-14430. PMID 20660768. [DOI 10.1073/pnas.1008662107](https://doi.org/10.1073/pnas.1008662107). Retrieved 2026-08-19.
 37. **S37.** Vrij, Aldert, Maria Hartwig, and Pär Anders Granhag. *Reading Lies: Nonverbal Communication and Deception*. *Annual Review of Psychology* 70, 2019, 295-317. [DOI 10.1146/annurev-psych-010418-103135](https://doi.org/10.1146/annurev-psych-010418-103135). Retrieved 2026-08-19.
-

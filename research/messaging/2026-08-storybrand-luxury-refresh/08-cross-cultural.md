@@ -316,21 +316,21 @@ All web sources were retrieved 2026-08-19. Local sources were inspected on the s
 
 ### Local governance and evidence
 
-1. Obenan AI Rules. [AGENTS.md](/Users/sevenerhan/ai-rules/AGENTS.md). Current local governance.
-2. Obenan AI Rules. [External authority and PR ownership](/Users/sevenerhan/ai-rules/.claude/rules-corpus/external-authority-and-pr-ownership.md). Current local governance.
-3. Obenan Design Workspace. [START_HERE.md](/Users/sevenerhan/Documents/obenan-design-workspace/START_HERE.md). Current workspace orientation.
-4. Obenan Design Workspace. [AGENTS.md](/Users/sevenerhan/Documents/obenan-design-workspace/AGENTS.md). Current workspace governance.
-5. Obenan Design Workspace. [STATUS.md](/Users/sevenerhan/Documents/obenan-design-workspace/STATUS.md). Current status at inspection.
-6. Obenan Design Workspace. [DOMAIN.md](/Users/sevenerhan/Documents/obenan-design-workspace/DOMAIN.md). Current scope boundaries.
-7. Obenan. [Design Principles 2026](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/DESIGN_PRINCIPLES_2026.md). Historical and current design evidence as labeled in source.
-8. Obenan. [Brand System](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_SYSTEM.md). Design evidence, not independent product proof.
-9. Obenan. [Brand Asset Library](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_ASSET_LIBRARY.md). Asset provenance evidence.
-10. Obenan. [Brand Emotion Website Spec, 2026-08-13](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md). Proposed emotion and interaction evidence.
-11. Obenan. [Factory Girl Asset Register, 2026-08-13](/Users/sevenerhan/Documents/obenan-design-workspace/reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md). Historical asset evidence.
-12. Obenan Design Workspace. [Reference messaging README](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/README.md). Messaging source classification.
-13. Obenan Design Workspace. [Research messaging README](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/README.md). Research governance.
-14. Obenan Design Workspace. [StoryBrand luxury refresh README](/Users/sevenerhan/Documents/obenan-design-workspace/research/messaging/2026-08-storybrand-luxury-refresh/README.md). Workstream scope and ownership.
-15. Obenan. [Diamond V1, 2026-02-28](/Users/sevenerhan/Documents/obenan-design-workspace/reference/messaging/sources/2026-02-28-diamond-v1.md). February dataset under assessment.
+1. Obenan AI Rules. [AGENTS.md](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled). Current local governance.
+2. Obenan AI Rules. [External authority and PR ownership](../../../PORTABLE_PATH_MAP.md#external-local-sources-not-bundled). Current local governance.
+3. Obenan Design Workspace. [START_HERE.md](../../../START_HERE.md). Current workspace orientation.
+4. Obenan Design Workspace. [AGENTS.md](../../../AGENTS.md). Current workspace governance.
+5. Obenan Design Workspace. [STATUS.md](../../../STATUS.md). Current status at inspection.
+6. Obenan Design Workspace. [DOMAIN.md](../../../DOMAIN.md). Current scope boundaries.
+7. Obenan. [Design Principles 2026](../../../reference/design-principles/DESIGN_PRINCIPLES_2026.md). Historical and current design evidence as labeled in source.
+8. Obenan. [Brand System](../../../reference/design-principles/BRAND_SYSTEM.md). Design evidence, not independent product proof.
+9. Obenan. [Brand Asset Library](../../../reference/design-principles/BRAND_ASSET_LIBRARY.md). Asset provenance evidence.
+10. Obenan. [Brand Emotion Website Spec, 2026-08-13](../../../reference/design-principles/BRAND_EMOTION_WEBSITE_SPEC_2026-08-13.md). Proposed emotion and interaction evidence.
+11. Obenan. [Factory Girl Asset Register, 2026-08-13](../../../reference/design-principles/FACTORY_GIRL_ASSET_REGISTER_2026-08-13.md). Historical asset evidence.
+12. Obenan Design Workspace. [Reference messaging README](../../../reference/messaging/README.md). Messaging source classification.
+13. Obenan Design Workspace. [Research messaging README](../../../research/messaging/README.md). Research governance.
+14. Obenan Design Workspace. [StoryBrand luxury refresh README](../../../research/messaging/2026-08-storybrand-luxury-refresh/README.md). Workstream scope and ownership.
+15. Obenan. [Diamond V1, 2026-02-28](../../../reference/messaging/sources/2026-02-28-diamond-v1.md). February dataset under assessment.
 
 ### Translation, localization, and language guidance
 

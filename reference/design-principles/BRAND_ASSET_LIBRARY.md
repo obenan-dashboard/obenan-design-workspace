@@ -33,7 +33,7 @@ Do not regenerate the Obenan logo from scratch.
 
 Use this first:
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical`
 
 This layer is organized for agents by asset type and uses stable paths.
 
@@ -41,13 +41,13 @@ This layer is organized for agents by asset type and uses stable paths.
 
 Use this when you need the original source files or deeper extracted animation packages:
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/raw`
+- `../../reference/brand-assets/original/Gleb`
 
 ### Original external source
 
 The original folder was:
 
-- `/Users/sevenerhan/Documents/Obenan Gleb Branding Assets `
+- `<external:gleb-source>`
 
 Important:
 
@@ -78,7 +78,7 @@ Main asset families:
 
 ### Guidelines
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/guidelines`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/guidelines`
 
 Use for:
 
@@ -88,8 +88,8 @@ Use for:
 
 ### Logos
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/svg`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/png`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/svg`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/png`
 
 Use for:
 
@@ -100,7 +100,7 @@ Use for:
 
 ### Favicons
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/favicons`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/favicons`
 
 Use for:
 
@@ -110,7 +110,7 @@ Use for:
 
 ### Logo Lottie
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/lottie`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/lottie`
 
 Use for:
 
@@ -119,10 +119,10 @@ Use for:
 
 ### Motion
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/logo`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/brand`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/social`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/logo`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/brand`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/social`
 
 Use for:
 
@@ -134,7 +134,7 @@ Use for:
 
 ### UI Packages
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/ui-packages`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/ui-packages`
 
 Use for:
 
@@ -174,29 +174,29 @@ If new work is created and becomes reusable, copy it back into the workspace ass
 
 ### SVG logos
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/svg/Logo.svg`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/svg/Logo_Dark.svg`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/svg/Logo_Light.svg`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/svg/logo+.svg`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/svg/Logo.svg`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/svg/Logo_Dark.svg`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/svg/Logo_Light.svg`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/svg/logo+.svg`
 
 ### PNG logos
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/png/logo-black.png`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/png/logo-white.png`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/logos/png/logo-mark.png`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/png/logo-black.png`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/png/logo-white.png`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/logos/png/logo-mark.png`
 
 ### Logo motion
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/lottie/logo-intro.json`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/lottie/logo-loop.json`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/logo/OBENAN_LOGO_1_LOOP_1.mp4`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/lottie/logo-intro.json`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/lottie/logo-loop.json`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/logo/OBENAN_LOGO_1_LOOP_1.mp4`
 
 ### UI motion
 
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui/0918-assistant.mp4`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui/0828-insights.mp4`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui/0829-overview.mp4`
-- `/Users/sevenerhan/obenan-landing-page/reference/branding-assets/canonical/motion/ui/0917-onboarding.mp4`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui/0918-assistant.mp4`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui/0828-insights.mp4`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui/0829-overview.mp4`
+- `<external:obenan-landing-page>/reference/branding-assets/canonical/motion/ui/0917-onboarding.mp4`
 
 ## Local-Only Storage Rule
 
