@@ -1,3 +1,35 @@
+# DR-D11 ownership promotion and validation handoff
+
+## Plan
+
+- [x] Record Seven's exact owner assignment as acceptance criteria and add
+  failing repository-contract tests before promotion.
+- [ ] Promote only DR-D11 ownership into approved design knowledge with date,
+  provenance, scope, and explicit non-approvals.
+- [ ] Remove DR-D11 from the unresolved queue and make DR-D05 the next P0
+  decision without changing any visual value.
+- [ ] Add an agent-ready validation brief and exact result template for
+  DR-D05, DR-D06, and DR-D08.
+- [ ] Rebuild integrity records, run all workspace gates, and ship through a
+  reviewed pull request.
+- [ ] Link the shipped ownership decision and validation work from issue #5;
+  keep #5 open until validated choices are ratified and promoted.
+
+## Test-first evidence
+
+RED confirmed against `origin/main` at
+`0f567cd5b8a978ce71feb90a03dda561a4b23315` with
+`node --test tests/design-ownership-promotion.test.mjs`: 0 passed, 4 failed,
+exit code 1. The failures identify the missing approved DR-D11 record,
+unchanged approved index and queue, missing validation brief, and missing
+result contract.
+
+## Review
+
+Pending implementation and remote verification.
+
+---
+
 # Marcin repository-quality issues #2–#6
 
 ## Plan
