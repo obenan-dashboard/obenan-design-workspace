@@ -11,7 +11,7 @@
   export boundaries, access boundary, provenance, and durable decision.
 - [x] Rebuild the starter integrity index and manifest; verify links, secrets,
   changed paths, package facts, and Git cleanliness.
-- [ ] Publish the bounded documentation change to GitHub `main` and verify the
+- [x] Publish the bounded documentation change to GitHub `main` and verify the
   exact remote files.
 
 ## Review
@@ -25,7 +25,9 @@ the six supported export subpaths, public/private repository visibility, and
 all six referenced private files. All 17 changed/new Markdown files have valid
 relative links; the secret-pattern scan, `git diff --check`, all 34 indexed
 files, and the 35-entry integrity manifest pass. Publication verification is
-pending.
+complete: commit `6461530e383d88664b402113c9035a3137ca0f43` reached GitHub
+`main`, the implementation bridge and agent entrypoints resolve remotely, and
+their published contents carry the Common UI routing rule.
 
 ---
 
